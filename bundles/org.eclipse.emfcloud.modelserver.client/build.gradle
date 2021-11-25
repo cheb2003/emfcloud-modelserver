@@ -1,0 +1,20 @@
+plugins {
+    id 'java-library'
+}
+compileJava {
+    options.incremental = true
+    options.encoding = 'utf-8'
+    sourceCompatibility = JavaVersion.VERSION_11
+    targetCompatibility = JavaVersion.VERSION_11
+}
+sourceSets {
+    main {
+        java {
+            srcDirs = ['src']
+        }
+    }
+}
+dependencies {
+    api project(':bundles:org.eclipse.emfcloud.modelserver.emf')
+    api 'com.squareup.okhttp3:okhttp:4.9.3'
+}

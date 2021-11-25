@@ -206,4 +206,8 @@ gradle-app.setting
 
 .temp
 
+.classpath
+.project
+.category.xml
+
 # End of https://www.gitignore.io/api/java,linux,macos,maven,gradle,windows,eclipse,intellij

@@ -54,7 +54,7 @@ public final class ExampleServerLauncher {
    }
 
    protected static CLIParser createCLIParser(final String[] args) throws ParseException {
-      CLIParser parser = new CLIParser(args, CLIParser.getDefaultCLIOptions(), PROCESS_NAME, 8081);
+      CLIParser parser = new CLIParser(args, CLIParser.getDefaultCLIOptions(), PROCESS_NAME, 9081);
       ensureWorkspaceRoot(parser);
       return parser;
    }

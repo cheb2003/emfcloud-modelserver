@@ -49,7 +49,7 @@ public final class ExampleModelServerClient {
 
    public static void main(final String[] args) {
       try (
-         ModelServerClient client = new ModelServerClient("http://localhost:8081/api/v1/",
+         ModelServerClient client = new ModelServerClient("http://localhost:9081/api/v1/",
             new CoffeePackageConfiguration());
          Scanner userInput = new Scanner(System.in)) {
          System.out.println("Simple Model Server Client Interface");

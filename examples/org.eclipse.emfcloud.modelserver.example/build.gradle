@@ -1,0 +1,16 @@
+plugins {
+    id 'java-library'
+}
+compileJava {
+    options.incremental = true
+    options.encoding = 'utf-8'
+    sourceCompatibility = JavaVersion.VERSION_11
+    targetCompatibility = JavaVersion.VERSION_11
+}
+dependencies {
+    api project(':bundles:org.eclipse.emfcloud.modelserver.emf')
+    api project(':bundles:org.eclipse.emfcloud.modelserver.client')
+    api project(':examples:org.eclipse.emfcloud.modelserver.coffee.model')
+    api 'commons-io:commons-io:2.11.0'
+    api 'org.slf4j:slf4j-simple:1.7.30'
+}

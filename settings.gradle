@@ -1,0 +1,7 @@
+rootProject.name = 'emfcloud-modelserver'
+include(':bundles:org.eclipse.emfcloud.modelserver.common')
+include(':bundles:org.eclipse.emfcloud.modelserver.edit')
+include(':bundles:org.eclipse.emfcloud.modelserver.emf')
+include(':bundles:org.eclipse.emfcloud.modelserver.client')
+include(':examples:org.eclipse.emfcloud.modelserver.coffee.model')
+include(':examples:org.eclipse.emfcloud.modelserver.example')

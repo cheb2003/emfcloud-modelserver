@@ -36,7 +36,7 @@ public class DefaultServerConfiguration implements ServerConfiguration {
 
    private URI workspaceRootURI = URI.createURI("");
    private URI uiSchemaFolderURI = URI.createURI("");
-   private int serverPort = 8081;
+   private int serverPort = 9081;
 
    private final UriHelper uriHelper;
 

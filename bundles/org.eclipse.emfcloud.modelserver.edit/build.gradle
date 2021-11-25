@@ -1,0 +1,22 @@
+plugins {
+    id 'java-library'
+}
+compileJava {
+    options.incremental = true
+    options.encoding = 'utf-8'
+    sourceCompatibility = JavaVersion.VERSION_11
+    targetCompatibility = JavaVersion.VERSION_11
+}
+sourceSets {
+    main {
+        java {
+            srcDirs = ['src','src-gen']
+        }
+    }
+}
+dependencies {
+    api project(':bundles:org.eclipse.emfcloud.modelserver.common')
+    api files('libs/org.eclipse.emf.edit-2.16.0.jar')
+    api 'org.eclipse.emf:transaction:1.4.0-v20100331-1738'
+//    api 'org.eclipse.emf:common:2.3.0-v200706262000'
+}
