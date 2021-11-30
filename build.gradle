@@ -4,12 +4,12 @@ allprojects {
         maven {
             url 'https://maven.aliyun.com/repository/public'
         }
-        maven {
-            url 'http://maven.irisa.fr/artifactory/list/kermeta-public-release/'
-        }
-        maven {
-            url 'https://mvnrepository.com'
-        }
+//        maven {
+//            url 'http://maven.irisa.fr/artifactory/list/kermeta-public-release/'
+//        }
+//        maven {
+//            url 'https://mvnrepository.com'
+//        }
 
     }
 }
