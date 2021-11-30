@@ -90,9 +90,9 @@ public final class CommandUtil {
             : Collections.emptySet();
       if (collection.size() == 1) {
          Object element = Iterables.getOnlyElement(collection);
-         if (element instanceof CommandParameter.Indices) {
-            result = ((CommandParameter.Indices) element).getIndices();
-         }
+         // if (element instanceof CommandParameter.Indices) {
+         // result = ((CommandParameter.Indices) element).getIndices();
+         // }
       }
       return result;
    }
