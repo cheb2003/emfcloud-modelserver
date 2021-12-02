@@ -18,12 +18,12 @@ import java.util.Optional;
 import org.eclipse.emf.common.util.URI;
 import org.eclipse.emf.ecore.EObject;
 import org.eclipse.emf.ecore.util.EcoreUtil;
+import org.eclipse.emfcloud.jackson.errors.JSONException;
+import org.eclipse.emfcloud.jackson.resource.JsonResource;
 
 import com.fasterxml.jackson.core.JsonLocation;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import org.eclipse.emfcloud.jackson.errors.JSONException;
-import org.eclipse.emfcloud.jackson.resource.JsonResource;
 
 public class DefaultJsonCodec implements Codec {
 

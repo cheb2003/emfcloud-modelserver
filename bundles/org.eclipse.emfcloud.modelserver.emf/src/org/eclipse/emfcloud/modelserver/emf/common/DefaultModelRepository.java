@@ -143,11 +143,6 @@ public class DefaultModelRepository implements ModelRepository {
    }
 
    @Override
-   public void closeModel(final String modeluri) {
-      modelResourceManager.closeResource(modeluri);
-   }
-
-   @Override
    public boolean saveModel(final String modeluri) {
       return modelResourceManager.save(modeluri);
    }

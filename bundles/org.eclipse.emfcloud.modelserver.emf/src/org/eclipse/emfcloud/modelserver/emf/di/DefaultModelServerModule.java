@@ -38,14 +38,9 @@ import org.eclipse.emfcloud.modelserver.emf.common.SchemaController;
 import org.eclipse.emfcloud.modelserver.emf.common.SchemaRepository;
 import org.eclipse.emfcloud.modelserver.emf.common.ServerController;
 import org.eclipse.emfcloud.modelserver.emf.common.SessionController;
-import org.eclipse.emfcloud.modelserver.emf.common.SingleThreadModelController;
 import org.eclipse.emfcloud.modelserver.emf.common.UriHelper;
 import org.eclipse.emfcloud.modelserver.emf.common.codecs.CodecsManager;
 import org.eclipse.emfcloud.modelserver.emf.common.codecs.DICodecsManager;
-import org.eclipse.emfcloud.modelserver.emf.common.watchers.DIModelWatchersManager;
-import org.eclipse.emfcloud.modelserver.emf.common.watchers.ModelWatcher;
-import org.eclipse.emfcloud.modelserver.emf.common.watchers.ModelWatchersManager;
-import org.eclipse.emfcloud.modelserver.emf.common.watchers.ReconcilingStrategy;
 import org.eclipse.emfcloud.modelserver.emf.configuration.DefaultServerConfiguration;
 import org.eclipse.emfcloud.modelserver.emf.configuration.EPackageConfiguration;
 import org.eclipse.emfcloud.modelserver.emf.configuration.FacetConfig;
@@ -57,7 +52,6 @@ import org.eclipse.emfcloud.modelserver.jsonschema.JsonSchemaConverter;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.google.inject.Singleton;
-import com.google.inject.name.Names;
 
 import io.javalin.Javalin;
 
@@ -73,12 +67,10 @@ public class DefaultModelServerModule extends ModelServerModule {
       bind(SchemaController.class).to(bindSchemaController()).in(Singleton.class);
       bind(SchemaRepository.class).to(bindSchemaRepository()).in(Singleton.class);
       bind(SessionController.class).to(bindSessionController()).in(Singleton.class);
-      bind(ModelController.class).to(bindThreadSafeModelController()).in(Singleton.class);
-      bind(ServerController.class).to(bindServerController()).in(Singleton.class);
+       bind(ModelController.class).to(bindModelController()).in(Singleton.class);
+       bind(ServerController.class).to(bindServerController()).in(Singleton.class);
       bind(CommandCodec.class).to(bindCommandCodec()).in(Singleton.class);
       bind(ModelResourceManager.class).to(bindModelResourceManager()).in(Singleton.class);
-      bind(ModelWatchersManager.class).to(bindModelWatchersManager()).in(Singleton.class);
-      bind(ReconcilingStrategy.class).to(bindReconcilingStrategy()).in(Singleton.class);
       bind(CodecsManager.class).to(bindCodecsManager()).in(Singleton.class);
       bind(ModelValidator.class).to(bindModelValidator()).in(Singleton.class);
       bind(FacetConfig.class).to(bindFacetConfig()).in(Singleton.class);
@@ -113,27 +105,12 @@ public class DefaultModelServerModule extends ModelServerModule {
       return DefaultModelController.class;
    }
 
-   protected Class<? extends ModelController> bindThreadSafeModelController() {
-      bind(ModelController.class)
-         .annotatedWith(Names.named(SingleThreadModelController.MODEL_CONTROLLER_DELEGATE))
-         .to(bindModelController());
-      return SingleThreadModelController.class;
-   }
-
    protected Class<? extends ModelRepository> bindModelRepository() {
       return DefaultModelRepository.class;
    }
 
    protected Class<? extends ModelResourceManager> bindModelResourceManager() {
       return RecordingModelResourceManager.class;
-   }
-
-   protected Class<? extends ModelWatchersManager> bindModelWatchersManager() {
-      return DIModelWatchersManager.class;
-   }
-
-   protected Class<? extends ReconcilingStrategy> bindReconcilingStrategy() {
-      return ReconcilingStrategy.AlwaysReload.class;
    }
 
    @Override
@@ -204,7 +181,6 @@ public class DefaultModelServerModule extends ModelServerModule {
       configure(MapBinding.create(EntryPointType.class, AppEntryPoint.class), this::configureAppEntryPoints);
       configure(MapBinding.create(String.class, Codec.class), this::configureCodecs);
       configure(MapBinding.create(String.class, CommandContribution.class), this::configureCommandCodecs);
-      configure(MultiBinding.create(ModelWatcher.Factory.class), this::configureModelWatcherFactories);
    }
 
    protected void configureRoutings(final MultiBinding<Routing> binding) {
@@ -221,9 +197,5 @@ public class DefaultModelServerModule extends ModelServerModule {
 
    protected ObjectMapper provideObjectMapper() {
       return ProviderDefaults.provideObjectMapper();
-   }
-
-   protected void configureModelWatcherFactories(final MultiBinding<ModelWatcher.Factory> binding) {
-      binding.addAll(MultiBindingDefaults.DEFAULT_MODEL_WATCHER_FACTORIES);
    }
 }

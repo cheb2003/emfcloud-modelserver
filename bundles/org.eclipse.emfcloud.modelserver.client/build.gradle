@@ -1,5 +1,6 @@
 plugins {
     id 'java-library'
+    id 'maven-publish'
 }
 compileJava {
     options.incremental = true
@@ -17,4 +18,12 @@ sourceSets {
 dependencies {
     api project(':bundles:org.eclipse.emfcloud.modelserver.emf')
     api 'com.squareup.okhttp3:okhttp:4.9.3'
+}
+publishing {
+    publications {
+        library(MavenPublication) {
+            from components.java
+            version = '0.8.0.R01'
+        }
+    }
 }

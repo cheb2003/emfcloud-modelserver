@@ -29,13 +29,6 @@ public interface ModelResourceManager {
 
    Optional<Resource> loadResource(String modeluri);
 
-   /**
-    * Watch for resource modifications (should be invoked just after loading).
-    *
-    * @param resource the resource to watch for
-    */
-   void watchResourceModifications(Resource resource);
-
    <T extends EObject> Optional<T> loadModel(String modeluri, Class<T> clazz);
 
    boolean isResourceLoaded(String modeluri);
@@ -59,14 +52,6 @@ public interface ModelResourceManager {
     * @throws IOException
     */
    void deleteResource(String modeluri) throws IOException;
-
-   /**
-    * Closes a resource, forgetting about its content and any current modification.
-    * Resource can be reopened later from its persisted state with a simple {@link #loadResource(String)} call.
-    *
-    * @param modeluri the URI of the model resource
-    */
-   void closeResource(String modeluri);
 
    CCommandExecutionResult execute(String modeluri, CCommand command) throws DecodingException;
 

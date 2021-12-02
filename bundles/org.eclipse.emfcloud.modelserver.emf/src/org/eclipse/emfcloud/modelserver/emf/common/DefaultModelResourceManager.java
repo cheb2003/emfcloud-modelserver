@@ -38,7 +38,6 @@ import org.eclipse.emfcloud.modelserver.edit.CommandCodec;
 import org.eclipse.emfcloud.modelserver.edit.CommandExecutionType;
 import org.eclipse.emfcloud.modelserver.edit.ModelServerCommand;
 import org.eclipse.emfcloud.modelserver.edit.command.UpdateModelCommandContribution;
-import org.eclipse.emfcloud.modelserver.emf.common.watchers.ModelWatchersManager;
 import org.eclipse.emfcloud.modelserver.emf.configuration.EPackageConfiguration;
 import org.eclipse.emfcloud.modelserver.emf.configuration.ServerConfiguration;
 
@@ -58,7 +57,6 @@ public class DefaultModelResourceManager implements ModelResourceManager {
 
    protected final Set<EPackageConfiguration> configurations;
    protected final AdapterFactory adapterFactory;
-   protected ModelWatchersManager watchersManager;
    protected final Map<URI, ResourceSet> resourceSets = Maps.newLinkedHashMap();
    protected final Map<ResourceSet, ModelServerEditingDomain> editingDomains = Maps.newLinkedHashMap();
 
@@ -66,13 +64,11 @@ public class DefaultModelResourceManager implements ModelResourceManager {
 
    @Inject
    public DefaultModelResourceManager(final Set<EPackageConfiguration> configurations,
-      final AdapterFactory adapterFactory, final ServerConfiguration serverConfiguration,
-      final ModelWatchersManager watchersManager) {
+                                      final AdapterFactory adapterFactory, final ServerConfiguration serverConfiguration) {
 
       this.configurations = Sets.newLinkedHashSet(configurations);
       this.adapterFactory = adapterFactory;
       this.serverConfiguration = serverConfiguration;
-      this.watchersManager = watchersManager;
       initialize();
    }
 
@@ -167,31 +163,13 @@ public class DefaultModelResourceManager implements ModelResourceManager {
    @SuppressWarnings("checkstyle:IllegalCatch")
    public Optional<Resource> loadResource(final String modeluri) {
       try {
-         ResourceSet rset = getResourceSet(modeluri);
-         Optional<Resource> loadedResource = Optional.ofNullable(rset.getResource(createURI(modeluri), false))
-            .filter(Resource::isLoaded);
-         if (loadedResource.isPresent()) {
-            return loadedResource;
-         }
-         // do load the resource and watch for modifications
-         Resource resource = rset.getResource(createURI(modeluri), true);
+         Resource resource = getResourceSet(modeluri).getResource(createURI(modeluri), true);
          resource.load(Collections.EMPTY_MAP);
-         watchResourceModifications(resource);
          return Optional.of(resource);
       } catch (final Throwable e) {
          handleLoadError(modeluri, this.isInitializing, e);
          return Optional.empty();
       }
-   }
-
-   /**
-    * Watch for resource modifications.
-    *
-    * @param resource the resource to watch for
-    */
-   @Override
-   public void watchResourceModifications(final Resource resource) {
-      watchersManager.watch(resource);
    }
 
    /**
@@ -248,54 +226,6 @@ public class DefaultModelResourceManager implements ModelResourceManager {
       }
    }
 
-   /**
-    * Closes a resource, forgetting about its content and any current modification.
-    * Since we always keep track of resourceSets and their content, resource will immediately be reloaded from file's
-    * content.
-    *
-    * @param modeluri the URI of the model resource
-    */
-   @Override
-   public void closeResource(final String modeluri) {
-      ResourceSet resourceSet = getResourceSet(modeluri);
-      if (resourceSet != null) {
-         URI uri = createURI(modeluri);
-         boolean resourceStillExists = resourceSet.getURIConverter().exists(uri, resourceSet.getLoadOptions());
-         Resource resource = resourceSet.getResource(uri, false);
-         if (resource != null) {
-            resource.unload();
-            // remove resource and clear resource set and editing domain when necessary
-            /*
-             * wasMainResource is generally true with this default implementation,
-             * but we don't eliminate the case of a loaded library for extensibility.
-             */
-            boolean wasMainResource = resourceSet.getResources().indexOf(resource) == 0;
-            resourceSet.getResources().remove(resource);
-            if (wasMainResource) {
-               ModelServerEditingDomain domain = getEditingDomain(resourceSet);
-               domain.dispose();
-               editingDomains.remove(resourceSet);
-               resourceSets.remove(uri);
-            }
-         }
-         /*
-          * DefaultModelResourceManager has a greedy resources loading mechanics,
-          * so then, we should reload it immediately.
-          * (I don't want to assume no other resource has been loaded in resource set)
-          */
-         if (resourceStillExists) {
-            // recreate resource set when necessary
-            resourceSets.computeIfAbsent(uri, u -> {
-               ResourceSetImpl created = new ResourceSetImpl();
-               createEditingDomain(created);
-               return created;
-            });
-            // reload
-            loadResource(modeluri);
-         }
-      }
-   }
-
    @Override
    public <T extends EObject> Optional<T> loadModel(final String modeluri, final Class<T> clazz) {
       Optional<Resource> res = loadResource(modeluri);
@@ -330,7 +260,6 @@ public class DefaultModelResourceManager implements ModelResourceManager {
       newResourceSet.getResources().add(resource);
       resource.getContents().add(model);
       resource.save(null);
-      watchResourceModifications(resource);
       createEditingDomain(newResourceSet);
    }
 
