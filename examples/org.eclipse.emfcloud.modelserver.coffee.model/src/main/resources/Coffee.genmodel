@@ -6,7 +6,7 @@
     creationIcons="false" editDirectory="" editorDirectory="" modelPluginID="" redirection=""
     modelName="Coffee" editPluginClass="org.eclipse.emfcloud.modelserver.coffee.model.coffee.provider.CoffeeEditPlugin"
     editorPluginClass="org.eclipse.emfcloud.modelserver.coffee.model.coffee.presentation.CoffeeEditorPlugin"
-    nonNLSMarkers="true" rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container"
+    nonNLSMarkers="true" rootExtendsClass="org.eclipse.emf.ecore.com.xnzk.flash.impl.MinimalEObjectImpl$Container"
     codeFormatting="true" commentFormatting="true" testSuiteClass="org.eclipse.emfcloud.modelserver.coffee.model.coffee.tests.CoffeeAllTests"
     importerID="org.eclipse.emf.importer.ecore" bundleManifest="false" complianceLevel="7.0"
     copyrightFields="false" operationReflection="true" importOrganizing="true" cleanup="true">

@@ -1,0 +1,31 @@
+plugins {
+    id 'java-library'
+    id 'maven-publish'
+}
+compileJava {
+    options.incremental = true
+    options.encoding = 'utf-8'
+    sourceCompatibility = JavaVersion.VERSION_11
+    targetCompatibility = JavaVersion.VERSION_11
+}
+dependencies {
+    implementation 'org.eclipselabs:cdo.hibernate:4.7.2'
+    implementation 'org.eclipse.emf:org.eclipse.emf.teneo:2.1.0-v201501071531'
+    implementation 'org.eclipse.emf:org.eclipse.emf.teneo.hibernate:2.1.0-v201501071531'
+    implementation 'org.eclipse.emf:org.eclipse.emf.teneo.annotations:2.1.0-v201501071531'
+    implementation 'org.eclipse.emf:org.eclipse.emf.teneo.hibernate.mapper:2.1.0-v201501071531'
+    implementation 'mysql:mysql-connector-java:5.1.48'
+    implementation 'org.eclipselabs:net4j.mysql:4.7.2'
+    implementation 'p6spy:p6spy:3.9.1'
+    implementation fileTree(dir: 'libs', includes: ['*.jar'])
+    api 'org.eclipse.emf:org.eclipse.emf.ecore:2.25.0'
+    implementation 'com.h2database:h2:2.0.202'
+}
+publishing {
+    publications {
+        library(MavenPublication) {
+            from components.java
+            version = '0.8.0.R01'
+        }
+    }
+}

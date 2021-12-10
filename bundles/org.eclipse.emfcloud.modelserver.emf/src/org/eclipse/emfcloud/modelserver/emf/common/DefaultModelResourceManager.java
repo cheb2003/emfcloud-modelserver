@@ -463,7 +463,7 @@ public class DefaultModelResourceManager implements ModelResourceManager {
          return URI.createFileURI(modelUri).toString();
       }
       // Create file URI from path if modelUri is already absolute path (file:/ or full path file:///)
-      // to ensure consistent usage of org.eclipse.emf.common.util.URI
+       // to ensure consistent usage of org.eclipse.emf.common.com.xnzk.flash.util.URI
       if (uri.hasDevice() && !Strings.isNullOrEmpty(uri.device())) {
          return URI.createFileURI(uri.device() + uri.path()).toString();
       }

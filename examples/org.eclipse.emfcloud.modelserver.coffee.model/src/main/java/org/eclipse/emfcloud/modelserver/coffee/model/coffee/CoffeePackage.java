@@ -19,7 +19,7 @@ import org.eclipse.emf.ecore.EReference;
 /**
  * <!-- begin-user-doc -->
  * The <b>Package</b> for the model.
- * It contains accessors for the meta objects to represent
+ * It contains accessors for the com.xnzk.flash.meta objects to represent
  * <ul>
  * <li>each class,</li>
  * <li>each feature of each class,</li>
@@ -70,16 +70,16 @@ public interface CoffeePackage extends EPackage {
     */
    CoffeePackage eINSTANCE = org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.CoffeePackageImpl.init();
 
-   /**
-    * The meta object id for the '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.ComponentImpl
-    * <em>Component</em>}' class.
-    * <!-- begin-user-doc -->
-    * <!-- end-user-doc -->
-    *
-    * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.ComponentImpl
-    * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.CoffeePackageImpl#getComponent()
-    * @generated
-    */
+    /**
+     * The com.xnzk.flash.meta object id for the '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.ComponentImpl
+     * <em>Component</em>}' class.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     *
+     * @generated
+     * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.ComponentImpl
+     * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.CoffeePackageImpl#getComponent()
+     */
    int COMPONENT = 0;
 
    /**
@@ -122,15 +122,15 @@ public interface CoffeePackage extends EPackage {
     */
    int COMPONENT_OPERATION_COUNT = 0;
 
-   /**
-    * The meta object id for the '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.MachineImpl
-    * <em>Machine</em>}' class.
-    * <!-- begin-user-doc -->
-    * <!-- end-user-doc -->
-    *
-    * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.MachineImpl
-    * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.CoffeePackageImpl#getMachine()
-    * @generated
+    /**
+     * The com.xnzk.flash.meta object id for the '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.MachineImpl
+     * <em>Machine</em>}' class.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     *
+     * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.MachineImpl
+     * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.CoffeePackageImpl#getMachine()
+     * @generated
     */
    int MACHINE = 1;
 
@@ -194,15 +194,15 @@ public interface CoffeePackage extends EPackage {
     */
    int MACHINE_OPERATION_COUNT = COMPONENT_OPERATION_COUNT + 0;
 
-   /**
-    * The meta object id for the '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.ControlUnitImpl
-    * <em>Control Unit</em>}' class.
-    * <!-- begin-user-doc -->
-    * <!-- end-user-doc -->
-    *
-    * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.ControlUnitImpl
-    * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.CoffeePackageImpl#getControlUnit()
-    * @generated
+    /**
+     * The com.xnzk.flash.meta object id for the '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.ControlUnitImpl
+     * <em>Control Unit</em>}' class.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     *
+     * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.ControlUnitImpl
+     * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.CoffeePackageImpl#getControlUnit()
+     * @generated
     */
    int CONTROL_UNIT = 2;
 
@@ -296,15 +296,15 @@ public interface CoffeePackage extends EPackage {
     */
    int CONTROL_UNIT_OPERATION_COUNT = COMPONENT_OPERATION_COUNT + 0;
 
-   /**
-    * The meta object id for the '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.BrewingUnitImpl
-    * <em>Brewing Unit</em>}' class.
-    * <!-- begin-user-doc -->
-    * <!-- end-user-doc -->
-    *
-    * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.BrewingUnitImpl
-    * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.CoffeePackageImpl#getBrewingUnit()
-    * @generated
+    /**
+     * The com.xnzk.flash.meta object id for the '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.BrewingUnitImpl
+     * <em>Brewing Unit</em>}' class.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     *
+     * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.BrewingUnitImpl
+     * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.CoffeePackageImpl#getBrewingUnit()
+     * @generated
     */
    int BREWING_UNIT = 3;
 
@@ -348,15 +348,15 @@ public interface CoffeePackage extends EPackage {
     */
    int BREWING_UNIT_OPERATION_COUNT = COMPONENT_OPERATION_COUNT + 0;
 
-   /**
-    * The meta object id for the '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.DipTrayImpl <em>Dip
-    * Tray</em>}' class.
-    * <!-- begin-user-doc -->
-    * <!-- end-user-doc -->
-    *
-    * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.DipTrayImpl
-    * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.CoffeePackageImpl#getDipTray()
-    * @generated
+    /**
+     * The com.xnzk.flash.meta object id for the '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.DipTrayImpl <em>Dip
+     * Tray</em>}' class.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     *
+     * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.DipTrayImpl
+     * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.CoffeePackageImpl#getDipTray()
+     * @generated
     */
    int DIP_TRAY = 4;
 
@@ -400,15 +400,15 @@ public interface CoffeePackage extends EPackage {
     */
    int DIP_TRAY_OPERATION_COUNT = COMPONENT_OPERATION_COUNT + 0;
 
-   /**
-    * The meta object id for the '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.WaterTankImpl
-    * <em>Water Tank</em>}' class.
-    * <!-- begin-user-doc -->
-    * <!-- end-user-doc -->
-    *
-    * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.WaterTankImpl
-    * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.CoffeePackageImpl#getWaterTank()
-    * @generated
+    /**
+     * The com.xnzk.flash.meta object id for the '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.WaterTankImpl
+     * <em>Water Tank</em>}' class.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     *
+     * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.WaterTankImpl
+     * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.CoffeePackageImpl#getWaterTank()
+     * @generated
     */
    int WATER_TANK = 5;
 
@@ -452,15 +452,15 @@ public interface CoffeePackage extends EPackage {
     */
    int WATER_TANK_OPERATION_COUNT = COMPONENT_OPERATION_COUNT + 0;
 
-   /**
-    * The meta object id for the '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.ProcessorImpl
-    * <em>Processor</em>}' class.
-    * <!-- begin-user-doc -->
-    * <!-- end-user-doc -->
-    *
-    * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.ProcessorImpl
-    * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.CoffeePackageImpl#getProcessor()
-    * @generated
+    /**
+     * The com.xnzk.flash.meta object id for the '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.ProcessorImpl
+     * <em>Processor</em>}' class.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     *
+     * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.ProcessorImpl
+     * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.CoffeePackageImpl#getProcessor()
+     * @generated
     */
    int PROCESSOR = 6;
 
@@ -544,15 +544,15 @@ public interface CoffeePackage extends EPackage {
     */
    int PROCESSOR_OPERATION_COUNT = 0;
 
-   /**
-    * The meta object id for the '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.DimensionImpl
-    * <em>Dimension</em>}' class.
-    * <!-- begin-user-doc -->
-    * <!-- end-user-doc -->
-    *
-    * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.DimensionImpl
-    * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.CoffeePackageImpl#getDimension()
-    * @generated
+    /**
+     * The com.xnzk.flash.meta object id for the '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.DimensionImpl
+     * <em>Dimension</em>}' class.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     *
+     * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.DimensionImpl
+     * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.CoffeePackageImpl#getDimension()
+     * @generated
     */
    int DIMENSION = 7;
 
@@ -606,15 +606,15 @@ public interface CoffeePackage extends EPackage {
     */
    int DIMENSION_OPERATION_COUNT = 0;
 
-   /**
-    * The meta object id for the '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.RAMImpl
-    * <em>RAM</em>}' class.
-    * <!-- begin-user-doc -->
-    * <!-- end-user-doc -->
-    *
-    * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.RAMImpl
-    * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.CoffeePackageImpl#getRAM()
-    * @generated
+    /**
+     * The com.xnzk.flash.meta object id for the '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.RAMImpl
+     * <em>RAM</em>}' class.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     *
+     * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.RAMImpl
+     * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.CoffeePackageImpl#getRAM()
+     * @generated
     */
    int RAM = 8;
 
@@ -668,15 +668,15 @@ public interface CoffeePackage extends EPackage {
     */
    int RAM_OPERATION_COUNT = 0;
 
-   /**
-    * The meta object id for the '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.DisplayImpl
-    * <em>Display</em>}' class.
-    * <!-- begin-user-doc -->
-    * <!-- end-user-doc -->
-    *
-    * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.DisplayImpl
-    * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.CoffeePackageImpl#getDisplay()
-    * @generated
+    /**
+     * The com.xnzk.flash.meta object id for the '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.DisplayImpl
+     * <em>Display</em>}' class.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     *
+     * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.DisplayImpl
+     * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.CoffeePackageImpl#getDisplay()
+     * @generated
     */
    int DISPLAY = 9;
 
@@ -720,15 +720,15 @@ public interface CoffeePackage extends EPackage {
     */
    int DISPLAY_OPERATION_COUNT = 0;
 
-   /**
-    * The meta object id for the '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.WorkflowImpl
-    * <em>Workflow</em>}' class.
-    * <!-- begin-user-doc -->
-    * <!-- end-user-doc -->
-    *
-    * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.WorkflowImpl
-    * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.CoffeePackageImpl#getWorkflow()
-    * @generated
+    /**
+     * The com.xnzk.flash.meta object id for the '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.WorkflowImpl
+     * <em>Workflow</em>}' class.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     *
+     * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.WorkflowImpl
+     * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.CoffeePackageImpl#getWorkflow()
+     * @generated
     */
    int WORKFLOW = 10;
 
@@ -782,15 +782,15 @@ public interface CoffeePackage extends EPackage {
     */
    int WORKFLOW_OPERATION_COUNT = 0;
 
-   /**
-    * The meta object id for the '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.NodeImpl
-    * <em>Node</em>}' class.
-    * <!-- begin-user-doc -->
-    * <!-- end-user-doc -->
-    *
-    * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.NodeImpl
-    * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.CoffeePackageImpl#getNode()
-    * @generated
+    /**
+     * The com.xnzk.flash.meta object id for the '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.NodeImpl
+     * <em>Node</em>}' class.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     *
+     * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.NodeImpl
+     * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.CoffeePackageImpl#getNode()
+     * @generated
     */
    int NODE = 11;
 
@@ -814,15 +814,15 @@ public interface CoffeePackage extends EPackage {
     */
    int NODE_OPERATION_COUNT = 0;
 
-   /**
-    * The meta object id for the '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.TaskImpl
-    * <em>Task</em>}' class.
-    * <!-- begin-user-doc -->
-    * <!-- end-user-doc -->
-    *
-    * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.TaskImpl
-    * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.CoffeePackageImpl#getTask()
-    * @generated
+    /**
+     * The com.xnzk.flash.meta object id for the '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.TaskImpl
+     * <em>Task</em>}' class.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     *
+     * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.TaskImpl
+     * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.CoffeePackageImpl#getTask()
+     * @generated
     */
    int TASK = 12;
 
@@ -866,15 +866,15 @@ public interface CoffeePackage extends EPackage {
     */
    int TASK_OPERATION_COUNT = NODE_OPERATION_COUNT + 0;
 
-   /**
-    * The meta object id for the '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.AutomaticTaskImpl
-    * <em>Automatic Task</em>}' class.
-    * <!-- begin-user-doc -->
-    * <!-- end-user-doc -->
-    *
-    * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.AutomaticTaskImpl
-    * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.CoffeePackageImpl#getAutomaticTask()
-    * @generated
+    /**
+     * The com.xnzk.flash.meta object id for the '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.AutomaticTaskImpl
+     * <em>Automatic Task</em>}' class.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     *
+     * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.AutomaticTaskImpl
+     * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.CoffeePackageImpl#getAutomaticTask()
+     * @generated
     */
    int AUTOMATIC_TASK = 13;
 
@@ -928,15 +928,15 @@ public interface CoffeePackage extends EPackage {
     */
    int AUTOMATIC_TASK_OPERATION_COUNT = TASK_OPERATION_COUNT + 0;
 
-   /**
-    * The meta object id for the '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.ManualTaskImpl
-    * <em>Manual Task</em>}' class.
-    * <!-- begin-user-doc -->
-    * <!-- end-user-doc -->
-    *
-    * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.ManualTaskImpl
-    * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.CoffeePackageImpl#getManualTask()
-    * @generated
+    /**
+     * The com.xnzk.flash.meta object id for the '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.ManualTaskImpl
+     * <em>Manual Task</em>}' class.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     *
+     * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.ManualTaskImpl
+     * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.CoffeePackageImpl#getManualTask()
+     * @generated
     */
    int MANUAL_TASK = 14;
 
@@ -990,15 +990,15 @@ public interface CoffeePackage extends EPackage {
     */
    int MANUAL_TASK_OPERATION_COUNT = TASK_OPERATION_COUNT + 0;
 
-   /**
-    * The meta object id for the '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.ForkImpl
-    * <em>Fork</em>}' class.
-    * <!-- begin-user-doc -->
-    * <!-- end-user-doc -->
-    *
-    * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.ForkImpl
-    * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.CoffeePackageImpl#getFork()
-    * @generated
+    /**
+     * The com.xnzk.flash.meta object id for the '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.ForkImpl
+     * <em>Fork</em>}' class.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     *
+     * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.ForkImpl
+     * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.CoffeePackageImpl#getFork()
+     * @generated
     */
    int FORK = 15;
 
@@ -1022,15 +1022,15 @@ public interface CoffeePackage extends EPackage {
     */
    int FORK_OPERATION_COUNT = NODE_OPERATION_COUNT + 0;
 
-   /**
-    * The meta object id for the '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.JoinImpl
-    * <em>Join</em>}' class.
-    * <!-- begin-user-doc -->
-    * <!-- end-user-doc -->
-    *
-    * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.JoinImpl
-    * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.CoffeePackageImpl#getJoin()
-    * @generated
+    /**
+     * The com.xnzk.flash.meta object id for the '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.JoinImpl
+     * <em>Join</em>}' class.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     *
+     * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.JoinImpl
+     * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.CoffeePackageImpl#getJoin()
+     * @generated
     */
    int JOIN = 16;
 
@@ -1054,15 +1054,15 @@ public interface CoffeePackage extends EPackage {
     */
    int JOIN_OPERATION_COUNT = NODE_OPERATION_COUNT + 0;
 
-   /**
-    * The meta object id for the '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.DecisionImpl
-    * <em>Decision</em>}' class.
-    * <!-- begin-user-doc -->
-    * <!-- end-user-doc -->
-    *
-    * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.DecisionImpl
-    * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.CoffeePackageImpl#getDecision()
-    * @generated
+    /**
+     * The com.xnzk.flash.meta object id for the '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.DecisionImpl
+     * <em>Decision</em>}' class.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     *
+     * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.DecisionImpl
+     * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.CoffeePackageImpl#getDecision()
+     * @generated
     */
    int DECISION = 17;
 
@@ -1086,15 +1086,15 @@ public interface CoffeePackage extends EPackage {
     */
    int DECISION_OPERATION_COUNT = NODE_OPERATION_COUNT + 0;
 
-   /**
-    * The meta object id for the '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.MergeImpl
-    * <em>Merge</em>}' class.
-    * <!-- begin-user-doc -->
-    * <!-- end-user-doc -->
-    *
-    * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.MergeImpl
-    * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.CoffeePackageImpl#getMerge()
-    * @generated
+    /**
+     * The com.xnzk.flash.meta object id for the '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.MergeImpl
+     * <em>Merge</em>}' class.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     *
+     * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.MergeImpl
+     * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.CoffeePackageImpl#getMerge()
+     * @generated
     */
    int MERGE = 18;
 
@@ -1118,15 +1118,15 @@ public interface CoffeePackage extends EPackage {
     */
    int MERGE_OPERATION_COUNT = NODE_OPERATION_COUNT + 0;
 
-   /**
-    * The meta object id for the '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.FlowImpl
-    * <em>Flow</em>}' class.
-    * <!-- begin-user-doc -->
-    * <!-- end-user-doc -->
-    *
-    * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.FlowImpl
-    * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.CoffeePackageImpl#getFlow()
-    * @generated
+    /**
+     * The com.xnzk.flash.meta object id for the '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.FlowImpl
+     * <em>Flow</em>}' class.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     *
+     * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.FlowImpl
+     * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.CoffeePackageImpl#getFlow()
+     * @generated
     */
    int FLOW = 19;
 
@@ -1170,15 +1170,15 @@ public interface CoffeePackage extends EPackage {
     */
    int FLOW_OPERATION_COUNT = 0;
 
-   /**
-    * The meta object id for the '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.WeightedFlowImpl
-    * <em>Weighted Flow</em>}' class.
-    * <!-- begin-user-doc -->
-    * <!-- end-user-doc -->
-    *
-    * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.WeightedFlowImpl
-    * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.CoffeePackageImpl#getWeightedFlow()
-    * @generated
+    /**
+     * The com.xnzk.flash.meta object id for the '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.WeightedFlowImpl
+     * <em>Weighted Flow</em>}' class.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     *
+     * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.WeightedFlowImpl
+     * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.CoffeePackageImpl#getWeightedFlow()
+     * @generated
     */
    int WEIGHTED_FLOW = 20;
 
@@ -1232,784 +1232,784 @@ public interface CoffeePackage extends EPackage {
     */
    int WEIGHTED_FLOW_OPERATION_COUNT = FLOW_OPERATION_COUNT + 0;
 
-   /**
-    * The meta object id for the '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.SocketConnectorType
-    * <em>Socket Connector Type</em>}' enum.
-    * <!-- begin-user-doc -->
-    * <!-- end-user-doc -->
-    *
-    * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.SocketConnectorType
-    * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.CoffeePackageImpl#getSocketConnectorType()
-    * @generated
+    /**
+     * The com.xnzk.flash.meta object id for the '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.SocketConnectorType
+     * <em>Socket Connector Type</em>}' enum.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     *
+     * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.SocketConnectorType
+     * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.CoffeePackageImpl#getSocketConnectorType()
+     * @generated
     */
    int SOCKET_CONNECTOR_TYPE = 21;
 
-   /**
-    * The meta object id for the '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.ManufactoringProcess
-    * <em>Manufactoring Process</em>}' enum.
-    * <!-- begin-user-doc -->
-    * <!-- end-user-doc -->
-    *
-    * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.ManufactoringProcess
-    * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.CoffeePackageImpl#getManufactoringProcess()
-    * @generated
+    /**
+     * The com.xnzk.flash.meta object id for the '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.ManufactoringProcess
+     * <em>Manufactoring Process</em>}' enum.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     *
+     * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.ManufactoringProcess
+     * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.CoffeePackageImpl#getManufactoringProcess()
+     * @generated
     */
    int MANUFACTORING_PROCESS = 22;
 
-   /**
-    * The meta object id for the '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.RamType <em>Ram
-    * Type</em>}' enum.
-    * <!-- begin-user-doc -->
-    * <!-- end-user-doc -->
-    *
-    * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.RamType
-    * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.CoffeePackageImpl#getRamType()
-    * @generated
+    /**
+     * The com.xnzk.flash.meta object id for the '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.RamType <em>Ram
+     * Type</em>}' enum.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     *
+     * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.RamType
+     * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.CoffeePackageImpl#getRamType()
+     * @generated
     */
    int RAM_TYPE = 23;
 
-   /**
-    * The meta object id for the '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.Probability
-    * <em>Probability</em>}' enum.
-    * <!-- begin-user-doc -->
-    * <!-- end-user-doc -->
-    *
-    * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.Probability
-    * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.CoffeePackageImpl#getProbability()
-    * @generated
+    /**
+     * The com.xnzk.flash.meta object id for the '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.Probability
+     * <em>Probability</em>}' enum.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     *
+     * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.Probability
+     * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.CoffeePackageImpl#getProbability()
+     * @generated
     */
    int PROBABILITY = 24;
 
-   /**
-    * Returns the meta object for class '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.Component
-    * <em>Component</em>}'.
-    * <!-- begin-user-doc -->
-    * <!-- end-user-doc -->
-    *
-    * @return the meta object for class '<em>Component</em>'.
-    * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.Component
-    * @generated
+    /**
+     * Returns the com.xnzk.flash.meta object for class '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.Component
+     * <em>Component</em>}'.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     *
+     * @return the com.xnzk.flash.meta object for class '<em>Component</em>'.
+     * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.Component
+     * @generated
     */
    EClass getComponent();
 
-   /**
-    * Returns the meta object for the containment reference list
-    * '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.Component#getChildren <em>Children</em>}'.
-    * <!-- begin-user-doc -->
-    * <!-- end-user-doc -->
-    *
-    * @return the meta object for the containment reference list '<em>Children</em>'.
-    * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.Component#getChildren()
-    * @see #getComponent()
-    * @generated
+    /**
+     * Returns the com.xnzk.flash.meta object for the containment reference list
+     * '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.Component#getChildren <em>Children</em>}'.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     *
+     * @return the com.xnzk.flash.meta object for the containment reference list '<em>Children</em>'.
+     * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.Component#getChildren()
+     * @see #getComponent()
+     * @generated
     */
    EReference getComponent_Children();
 
-   /**
-    * Returns the meta object for the container reference
-    * '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.Component#getParent <em>Parent</em>}'.
-    * <!-- begin-user-doc -->
-    * <!-- end-user-doc -->
-    *
-    * @return the meta object for the container reference '<em>Parent</em>'.
-    * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.Component#getParent()
-    * @see #getComponent()
-    * @generated
+    /**
+     * Returns the com.xnzk.flash.meta object for the container reference
+     * '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.Component#getParent <em>Parent</em>}'.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     *
+     * @return the com.xnzk.flash.meta object for the container reference '<em>Parent</em>'.
+     * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.Component#getParent()
+     * @see #getComponent()
+     * @generated
     */
    EReference getComponent_Parent();
 
-   /**
-    * Returns the meta object for class '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.Machine
-    * <em>Machine</em>}'.
-    * <!-- begin-user-doc -->
-    * <!-- end-user-doc -->
-    *
-    * @return the meta object for class '<em>Machine</em>'.
-    * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.Machine
-    * @generated
+    /**
+     * Returns the com.xnzk.flash.meta object for class '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.Machine
+     * <em>Machine</em>}'.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     *
+     * @return the com.xnzk.flash.meta object for class '<em>Machine</em>'.
+     * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.Machine
+     * @generated
     */
    EClass getMachine();
 
-   /**
-    * Returns the meta object for the attribute
-    * '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.Machine#getName <em>Name</em>}'.
-    * <!-- begin-user-doc -->
-    * <!-- end-user-doc -->
-    *
-    * @return the meta object for the attribute '<em>Name</em>'.
-    * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.Machine#getName()
-    * @see #getMachine()
-    * @generated
+    /**
+     * Returns the com.xnzk.flash.meta object for the attribute
+     * '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.Machine#getName <em>Name</em>}'.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     *
+     * @return the com.xnzk.flash.meta object for the attribute '<em>Name</em>'.
+     * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.Machine#getName()
+     * @see #getMachine()
+     * @generated
     */
    EAttribute getMachine_Name();
 
-   /**
-    * Returns the meta object for the containment reference list
-    * '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.Machine#getWorkflows <em>Workflows</em>}'.
-    * <!-- begin-user-doc -->
-    * <!-- end-user-doc -->
-    *
-    * @return the meta object for the containment reference list '<em>Workflows</em>'.
-    * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.Machine#getWorkflows()
-    * @see #getMachine()
-    * @generated
+    /**
+     * Returns the com.xnzk.flash.meta object for the containment reference list
+     * '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.Machine#getWorkflows <em>Workflows</em>}'.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     *
+     * @return the com.xnzk.flash.meta object for the containment reference list '<em>Workflows</em>'.
+     * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.Machine#getWorkflows()
+     * @see #getMachine()
+     * @generated
     */
    EReference getMachine_Workflows();
 
-   /**
-    * Returns the meta object for class '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.ControlUnit
-    * <em>Control Unit</em>}'.
-    * <!-- begin-user-doc -->
-    * <!-- end-user-doc -->
-    *
-    * @return the meta object for class '<em>Control Unit</em>'.
-    * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.ControlUnit
-    * @generated
+    /**
+     * Returns the com.xnzk.flash.meta object for class '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.ControlUnit
+     * <em>Control Unit</em>}'.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     *
+     * @return the com.xnzk.flash.meta object for class '<em>Control Unit</em>'.
+     * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.ControlUnit
+     * @generated
     */
    EClass getControlUnit();
 
-   /**
-    * Returns the meta object for the containment reference
-    * '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.ControlUnit#getProcessor <em>Processor</em>}'.
-    * <!-- begin-user-doc -->
-    * <!-- end-user-doc -->
-    *
-    * @return the meta object for the containment reference '<em>Processor</em>'.
-    * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.ControlUnit#getProcessor()
-    * @see #getControlUnit()
-    * @generated
+    /**
+     * Returns the com.xnzk.flash.meta object for the containment reference
+     * '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.ControlUnit#getProcessor <em>Processor</em>}'.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     *
+     * @return the com.xnzk.flash.meta object for the containment reference '<em>Processor</em>'.
+     * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.ControlUnit#getProcessor()
+     * @see #getControlUnit()
+     * @generated
     */
    EReference getControlUnit_Processor();
 
-   /**
-    * Returns the meta object for the containment reference
-    * '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.ControlUnit#getDimension <em>Dimension</em>}'.
-    * <!-- begin-user-doc -->
-    * <!-- end-user-doc -->
-    *
-    * @return the meta object for the containment reference '<em>Dimension</em>'.
-    * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.ControlUnit#getDimension()
-    * @see #getControlUnit()
-    * @generated
+    /**
+     * Returns the com.xnzk.flash.meta object for the containment reference
+     * '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.ControlUnit#getDimension <em>Dimension</em>}'.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     *
+     * @return the com.xnzk.flash.meta object for the containment reference '<em>Dimension</em>'.
+     * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.ControlUnit#getDimension()
+     * @see #getControlUnit()
+     * @generated
     */
    EReference getControlUnit_Dimension();
 
-   /**
-    * Returns the meta object for the containment reference list
-    * '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.ControlUnit#getRam <em>Ram</em>}'.
-    * <!-- begin-user-doc -->
-    * <!-- end-user-doc -->
-    *
-    * @return the meta object for the containment reference list '<em>Ram</em>'.
-    * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.ControlUnit#getRam()
-    * @see #getControlUnit()
-    * @generated
+    /**
+     * Returns the com.xnzk.flash.meta object for the containment reference list
+     * '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.ControlUnit#getRam <em>Ram</em>}'.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     *
+     * @return the com.xnzk.flash.meta object for the containment reference list '<em>Ram</em>'.
+     * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.ControlUnit#getRam()
+     * @see #getControlUnit()
+     * @generated
     */
    EReference getControlUnit_Ram();
 
-   /**
-    * Returns the meta object for the containment reference
-    * '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.ControlUnit#getDisplay <em>Display</em>}'.
-    * <!-- begin-user-doc -->
-    * <!-- end-user-doc -->
-    *
-    * @return the meta object for the containment reference '<em>Display</em>'.
-    * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.ControlUnit#getDisplay()
-    * @see #getControlUnit()
-    * @generated
+    /**
+     * Returns the com.xnzk.flash.meta object for the containment reference
+     * '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.ControlUnit#getDisplay <em>Display</em>}'.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     *
+     * @return the com.xnzk.flash.meta object for the containment reference '<em>Display</em>'.
+     * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.ControlUnit#getDisplay()
+     * @see #getControlUnit()
+     * @generated
     */
    EReference getControlUnit_Display();
 
-   /**
-    * Returns the meta object for the attribute
-    * '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.ControlUnit#getUserDescription <em>User
-    * Description</em>}'.
-    * <!-- begin-user-doc -->
-    * <!-- end-user-doc -->
-    *
-    * @return the meta object for the attribute '<em>User Description</em>'.
-    * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.ControlUnit#getUserDescription()
-    * @see #getControlUnit()
-    * @generated
+    /**
+     * Returns the com.xnzk.flash.meta object for the attribute
+     * '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.ControlUnit#getUserDescription <em>User
+     * Description</em>}'.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     *
+     * @return the com.xnzk.flash.meta object for the attribute '<em>User Description</em>'.
+     * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.ControlUnit#getUserDescription()
+     * @see #getControlUnit()
+     * @generated
     */
    EAttribute getControlUnit_UserDescription();
 
-   /**
-    * Returns the meta object for class '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.BrewingUnit
-    * <em>Brewing Unit</em>}'.
-    * <!-- begin-user-doc -->
-    * <!-- end-user-doc -->
-    *
-    * @return the meta object for class '<em>Brewing Unit</em>'.
-    * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.BrewingUnit
-    * @generated
+    /**
+     * Returns the com.xnzk.flash.meta object for class '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.BrewingUnit
+     * <em>Brewing Unit</em>}'.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     *
+     * @return the com.xnzk.flash.meta object for class '<em>Brewing Unit</em>'.
+     * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.BrewingUnit
+     * @generated
     */
    EClass getBrewingUnit();
 
-   /**
-    * Returns the meta object for class '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.DipTray <em>Dip
-    * Tray</em>}'.
-    * <!-- begin-user-doc -->
-    * <!-- end-user-doc -->
-    *
-    * @return the meta object for class '<em>Dip Tray</em>'.
-    * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.DipTray
-    * @generated
+    /**
+     * Returns the com.xnzk.flash.meta object for class '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.DipTray <em>Dip
+     * Tray</em>}'.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     *
+     * @return the com.xnzk.flash.meta object for class '<em>Dip Tray</em>'.
+     * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.DipTray
+     * @generated
     */
    EClass getDipTray();
 
-   /**
-    * Returns the meta object for class '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.WaterTank <em>Water
-    * Tank</em>}'.
-    * <!-- begin-user-doc -->
-    * <!-- end-user-doc -->
-    *
-    * @return the meta object for class '<em>Water Tank</em>'.
-    * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.WaterTank
-    * @generated
+    /**
+     * Returns the com.xnzk.flash.meta object for class '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.WaterTank <em>Water
+     * Tank</em>}'.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     *
+     * @return the com.xnzk.flash.meta object for class '<em>Water Tank</em>'.
+     * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.WaterTank
+     * @generated
     */
    EClass getWaterTank();
 
-   /**
-    * Returns the meta object for class '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.Processor
-    * <em>Processor</em>}'.
-    * <!-- begin-user-doc -->
-    * <!-- end-user-doc -->
-    *
-    * @return the meta object for class '<em>Processor</em>'.
-    * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.Processor
-    * @generated
+    /**
+     * Returns the com.xnzk.flash.meta object for class '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.Processor
+     * <em>Processor</em>}'.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     *
+     * @return the com.xnzk.flash.meta object for class '<em>Processor</em>'.
+     * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.Processor
+     * @generated
     */
    EClass getProcessor();
 
-   /**
-    * Returns the meta object for the attribute
-    * '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.Processor#getVendor <em>Vendor</em>}'.
-    * <!-- begin-user-doc -->
-    * <!-- end-user-doc -->
-    *
-    * @return the meta object for the attribute '<em>Vendor</em>'.
-    * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.Processor#getVendor()
-    * @see #getProcessor()
-    * @generated
+    /**
+     * Returns the com.xnzk.flash.meta object for the attribute
+     * '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.Processor#getVendor <em>Vendor</em>}'.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     *
+     * @return the com.xnzk.flash.meta object for the attribute '<em>Vendor</em>'.
+     * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.Processor#getVendor()
+     * @see #getProcessor()
+     * @generated
     */
    EAttribute getProcessor_Vendor();
 
-   /**
-    * Returns the meta object for the attribute
-    * '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.Processor#getClockSpeed <em>Clock Speed</em>}'.
-    * <!-- begin-user-doc -->
-    * <!-- end-user-doc -->
-    *
-    * @return the meta object for the attribute '<em>Clock Speed</em>'.
-    * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.Processor#getClockSpeed()
-    * @see #getProcessor()
-    * @generated
+    /**
+     * Returns the com.xnzk.flash.meta object for the attribute
+     * '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.Processor#getClockSpeed <em>Clock Speed</em>}'.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     *
+     * @return the com.xnzk.flash.meta object for the attribute '<em>Clock Speed</em>'.
+     * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.Processor#getClockSpeed()
+     * @see #getProcessor()
+     * @generated
     */
    EAttribute getProcessor_ClockSpeed();
 
-   /**
-    * Returns the meta object for the attribute
-    * '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.Processor#getNumberOfCores <em>Number Of
-    * Cores</em>}'.
-    * <!-- begin-user-doc -->
-    * <!-- end-user-doc -->
-    *
-    * @return the meta object for the attribute '<em>Number Of Cores</em>'.
-    * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.Processor#getNumberOfCores()
-    * @see #getProcessor()
-    * @generated
+    /**
+     * Returns the com.xnzk.flash.meta object for the attribute
+     * '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.Processor#getNumberOfCores <em>Number Of
+     * Cores</em>}'.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     *
+     * @return the com.xnzk.flash.meta object for the attribute '<em>Number Of Cores</em>'.
+     * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.Processor#getNumberOfCores()
+     * @see #getProcessor()
+     * @generated
     */
    EAttribute getProcessor_NumberOfCores();
 
-   /**
-    * Returns the meta object for the attribute
-    * '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.Processor#getSocketconnectorType <em>Socketconnector
-    * Type</em>}'.
-    * <!-- begin-user-doc -->
-    * <!-- end-user-doc -->
-    *
-    * @return the meta object for the attribute '<em>Socketconnector Type</em>'.
-    * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.Processor#getSocketconnectorType()
-    * @see #getProcessor()
-    * @generated
+    /**
+     * Returns the com.xnzk.flash.meta object for the attribute
+     * '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.Processor#getSocketconnectorType <em>Socketconnector
+     * Type</em>}'.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     *
+     * @return the com.xnzk.flash.meta object for the attribute '<em>Socketconnector Type</em>'.
+     * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.Processor#getSocketconnectorType()
+     * @see #getProcessor()
+     * @generated
     */
    EAttribute getProcessor_SocketconnectorType();
 
-   /**
-    * Returns the meta object for the attribute
-    * '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.Processor#getThermalDesignPower <em>Thermal Design
-    * Power</em>}'.
-    * <!-- begin-user-doc -->
-    * <!-- end-user-doc -->
-    *
-    * @return the meta object for the attribute '<em>Thermal Design Power</em>'.
-    * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.Processor#getThermalDesignPower()
-    * @see #getProcessor()
-    * @generated
+    /**
+     * Returns the com.xnzk.flash.meta object for the attribute
+     * '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.Processor#getThermalDesignPower <em>Thermal Design
+     * Power</em>}'.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     *
+     * @return the com.xnzk.flash.meta object for the attribute '<em>Thermal Design Power</em>'.
+     * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.Processor#getThermalDesignPower()
+     * @see #getProcessor()
+     * @generated
     */
    EAttribute getProcessor_ThermalDesignPower();
 
-   /**
-    * Returns the meta object for the attribute
-    * '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.Processor#getManufactoringProcess <em>Manufactoring
-    * Process</em>}'.
-    * <!-- begin-user-doc -->
-    * <!-- end-user-doc -->
-    *
-    * @return the meta object for the attribute '<em>Manufactoring Process</em>'.
-    * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.Processor#getManufactoringProcess()
-    * @see #getProcessor()
-    * @generated
+    /**
+     * Returns the com.xnzk.flash.meta object for the attribute
+     * '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.Processor#getManufactoringProcess <em>Manufactoring
+     * Process</em>}'.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     *
+     * @return the com.xnzk.flash.meta object for the attribute '<em>Manufactoring Process</em>'.
+     * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.Processor#getManufactoringProcess()
+     * @see #getProcessor()
+     * @generated
     */
    EAttribute getProcessor_ManufactoringProcess();
 
-   /**
-    * Returns the meta object for class '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.Dimension
-    * <em>Dimension</em>}'.
-    * <!-- begin-user-doc -->
-    * <!-- end-user-doc -->
-    *
-    * @return the meta object for class '<em>Dimension</em>'.
-    * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.Dimension
-    * @generated
+    /**
+     * Returns the com.xnzk.flash.meta object for class '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.Dimension
+     * <em>Dimension</em>}'.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     *
+     * @return the com.xnzk.flash.meta object for class '<em>Dimension</em>'.
+     * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.Dimension
+     * @generated
     */
    EClass getDimension();
 
-   /**
-    * Returns the meta object for the attribute
-    * '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.Dimension#getWidth <em>Width</em>}'.
-    * <!-- begin-user-doc -->
-    * <!-- end-user-doc -->
-    *
-    * @return the meta object for the attribute '<em>Width</em>'.
-    * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.Dimension#getWidth()
-    * @see #getDimension()
-    * @generated
+    /**
+     * Returns the com.xnzk.flash.meta object for the attribute
+     * '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.Dimension#getWidth <em>Width</em>}'.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     *
+     * @return the com.xnzk.flash.meta object for the attribute '<em>Width</em>'.
+     * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.Dimension#getWidth()
+     * @see #getDimension()
+     * @generated
     */
    EAttribute getDimension_Width();
 
-   /**
-    * Returns the meta object for the attribute
-    * '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.Dimension#getHeight <em>Height</em>}'.
-    * <!-- begin-user-doc -->
-    * <!-- end-user-doc -->
-    *
-    * @return the meta object for the attribute '<em>Height</em>'.
-    * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.Dimension#getHeight()
-    * @see #getDimension()
-    * @generated
+    /**
+     * Returns the com.xnzk.flash.meta object for the attribute
+     * '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.Dimension#getHeight <em>Height</em>}'.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     *
+     * @return the com.xnzk.flash.meta object for the attribute '<em>Height</em>'.
+     * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.Dimension#getHeight()
+     * @see #getDimension()
+     * @generated
     */
    EAttribute getDimension_Height();
 
-   /**
-    * Returns the meta object for the attribute
-    * '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.Dimension#getLength <em>Length</em>}'.
-    * <!-- begin-user-doc -->
-    * <!-- end-user-doc -->
-    *
-    * @return the meta object for the attribute '<em>Length</em>'.
-    * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.Dimension#getLength()
-    * @see #getDimension()
-    * @generated
+    /**
+     * Returns the com.xnzk.flash.meta object for the attribute
+     * '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.Dimension#getLength <em>Length</em>}'.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     *
+     * @return the com.xnzk.flash.meta object for the attribute '<em>Length</em>'.
+     * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.Dimension#getLength()
+     * @see #getDimension()
+     * @generated
     */
    EAttribute getDimension_Length();
 
-   /**
-    * Returns the meta object for class '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.RAM <em>RAM</em>}'.
-    * <!-- begin-user-doc -->
-    * <!-- end-user-doc -->
-    *
-    * @return the meta object for class '<em>RAM</em>'.
-    * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.RAM
-    * @generated
+    /**
+     * Returns the com.xnzk.flash.meta object for class '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.RAM <em>RAM</em>}'.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     *
+     * @return the com.xnzk.flash.meta object for class '<em>RAM</em>'.
+     * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.RAM
+     * @generated
     */
    EClass getRAM();
 
-   /**
-    * Returns the meta object for the attribute
-    * '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.RAM#getClockSpeed <em>Clock Speed</em>}'.
-    * <!-- begin-user-doc -->
-    * <!-- end-user-doc -->
-    *
-    * @return the meta object for the attribute '<em>Clock Speed</em>'.
-    * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.RAM#getClockSpeed()
-    * @see #getRAM()
-    * @generated
+    /**
+     * Returns the com.xnzk.flash.meta object for the attribute
+     * '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.RAM#getClockSpeed <em>Clock Speed</em>}'.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     *
+     * @return the com.xnzk.flash.meta object for the attribute '<em>Clock Speed</em>'.
+     * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.RAM#getClockSpeed()
+     * @see #getRAM()
+     * @generated
     */
    EAttribute getRAM_ClockSpeed();
 
-   /**
-    * Returns the meta object for the attribute '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.RAM#getSize
-    * <em>Size</em>}'.
-    * <!-- begin-user-doc -->
-    * <!-- end-user-doc -->
-    *
-    * @return the meta object for the attribute '<em>Size</em>'.
-    * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.RAM#getSize()
-    * @see #getRAM()
-    * @generated
+    /**
+     * Returns the com.xnzk.flash.meta object for the attribute '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.RAM#getSize
+     * <em>Size</em>}'.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     *
+     * @return the com.xnzk.flash.meta object for the attribute '<em>Size</em>'.
+     * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.RAM#getSize()
+     * @see #getRAM()
+     * @generated
     */
    EAttribute getRAM_Size();
 
-   /**
-    * Returns the meta object for the attribute '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.RAM#getType
-    * <em>Type</em>}'.
-    * <!-- begin-user-doc -->
-    * <!-- end-user-doc -->
-    *
-    * @return the meta object for the attribute '<em>Type</em>'.
-    * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.RAM#getType()
-    * @see #getRAM()
-    * @generated
+    /**
+     * Returns the com.xnzk.flash.meta object for the attribute '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.RAM#getType
+     * <em>Type</em>}'.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     *
+     * @return the com.xnzk.flash.meta object for the attribute '<em>Type</em>'.
+     * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.RAM#getType()
+     * @see #getRAM()
+     * @generated
     */
    EAttribute getRAM_Type();
 
-   /**
-    * Returns the meta object for class '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.Display
-    * <em>Display</em>}'.
-    * <!-- begin-user-doc -->
-    * <!-- end-user-doc -->
-    *
-    * @return the meta object for class '<em>Display</em>'.
-    * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.Display
-    * @generated
+    /**
+     * Returns the com.xnzk.flash.meta object for class '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.Display
+     * <em>Display</em>}'.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     *
+     * @return the com.xnzk.flash.meta object for class '<em>Display</em>'.
+     * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.Display
+     * @generated
     */
    EClass getDisplay();
 
-   /**
-    * Returns the meta object for the attribute
-    * '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.Display#getWidth <em>Width</em>}'.
-    * <!-- begin-user-doc -->
-    * <!-- end-user-doc -->
-    *
-    * @return the meta object for the attribute '<em>Width</em>'.
-    * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.Display#getWidth()
-    * @see #getDisplay()
-    * @generated
+    /**
+     * Returns the com.xnzk.flash.meta object for the attribute
+     * '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.Display#getWidth <em>Width</em>}'.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     *
+     * @return the com.xnzk.flash.meta object for the attribute '<em>Width</em>'.
+     * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.Display#getWidth()
+     * @see #getDisplay()
+     * @generated
     */
    EAttribute getDisplay_Width();
 
-   /**
-    * Returns the meta object for the attribute
-    * '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.Display#getHeight <em>Height</em>}'.
-    * <!-- begin-user-doc -->
-    * <!-- end-user-doc -->
-    *
-    * @return the meta object for the attribute '<em>Height</em>'.
-    * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.Display#getHeight()
-    * @see #getDisplay()
-    * @generated
+    /**
+     * Returns the com.xnzk.flash.meta object for the attribute
+     * '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.Display#getHeight <em>Height</em>}'.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     *
+     * @return the com.xnzk.flash.meta object for the attribute '<em>Height</em>'.
+     * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.Display#getHeight()
+     * @see #getDisplay()
+     * @generated
     */
    EAttribute getDisplay_Height();
 
-   /**
-    * Returns the meta object for class '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.Workflow
-    * <em>Workflow</em>}'.
-    * <!-- begin-user-doc -->
-    * <!-- end-user-doc -->
-    *
-    * @return the meta object for class '<em>Workflow</em>'.
-    * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.Workflow
-    * @generated
+    /**
+     * Returns the com.xnzk.flash.meta object for class '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.Workflow
+     * <em>Workflow</em>}'.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     *
+     * @return the com.xnzk.flash.meta object for class '<em>Workflow</em>'.
+     * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.Workflow
+     * @generated
     */
    EClass getWorkflow();
 
-   /**
-    * Returns the meta object for the attribute
-    * '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.Workflow#getName <em>Name</em>}'.
-    * <!-- begin-user-doc -->
-    * <!-- end-user-doc -->
-    *
-    * @return the meta object for the attribute '<em>Name</em>'.
-    * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.Workflow#getName()
-    * @see #getWorkflow()
-    * @generated
+    /**
+     * Returns the com.xnzk.flash.meta object for the attribute
+     * '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.Workflow#getName <em>Name</em>}'.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     *
+     * @return the com.xnzk.flash.meta object for the attribute '<em>Name</em>'.
+     * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.Workflow#getName()
+     * @see #getWorkflow()
+     * @generated
     */
    EAttribute getWorkflow_Name();
 
-   /**
-    * Returns the meta object for the containment reference list
-    * '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.Workflow#getNodes <em>Nodes</em>}'.
-    * <!-- begin-user-doc -->
-    * <!-- end-user-doc -->
-    *
-    * @return the meta object for the containment reference list '<em>Nodes</em>'.
-    * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.Workflow#getNodes()
-    * @see #getWorkflow()
-    * @generated
+    /**
+     * Returns the com.xnzk.flash.meta object for the containment reference list
+     * '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.Workflow#getNodes <em>Nodes</em>}'.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     *
+     * @return the com.xnzk.flash.meta object for the containment reference list '<em>Nodes</em>'.
+     * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.Workflow#getNodes()
+     * @see #getWorkflow()
+     * @generated
     */
    EReference getWorkflow_Nodes();
 
-   /**
-    * Returns the meta object for the containment reference list
-    * '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.Workflow#getFlows <em>Flows</em>}'.
-    * <!-- begin-user-doc -->
-    * <!-- end-user-doc -->
-    *
-    * @return the meta object for the containment reference list '<em>Flows</em>'.
-    * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.Workflow#getFlows()
-    * @see #getWorkflow()
-    * @generated
+    /**
+     * Returns the com.xnzk.flash.meta object for the containment reference list
+     * '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.Workflow#getFlows <em>Flows</em>}'.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     *
+     * @return the com.xnzk.flash.meta object for the containment reference list '<em>Flows</em>'.
+     * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.Workflow#getFlows()
+     * @see #getWorkflow()
+     * @generated
     */
    EReference getWorkflow_Flows();
 
-   /**
-    * Returns the meta object for class '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.Node
-    * <em>Node</em>}'.
-    * <!-- begin-user-doc -->
-    * <!-- end-user-doc -->
-    *
-    * @return the meta object for class '<em>Node</em>'.
-    * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.Node
-    * @generated
+    /**
+     * Returns the com.xnzk.flash.meta object for class '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.Node
+     * <em>Node</em>}'.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     *
+     * @return the com.xnzk.flash.meta object for class '<em>Node</em>'.
+     * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.Node
+     * @generated
     */
    EClass getNode();
 
-   /**
-    * Returns the meta object for class '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.Task
-    * <em>Task</em>}'.
-    * <!-- begin-user-doc -->
-    * <!-- end-user-doc -->
-    *
-    * @return the meta object for class '<em>Task</em>'.
-    * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.Task
-    * @generated
+    /**
+     * Returns the com.xnzk.flash.meta object for class '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.Task
+     * <em>Task</em>}'.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     *
+     * @return the com.xnzk.flash.meta object for class '<em>Task</em>'.
+     * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.Task
+     * @generated
     */
    EClass getTask();
 
-   /**
-    * Returns the meta object for the attribute
-    * '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.Task#getName <em>Name</em>}'.
-    * <!-- begin-user-doc -->
-    * <!-- end-user-doc -->
-    *
-    * @return the meta object for the attribute '<em>Name</em>'.
-    * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.Task#getName()
-    * @see #getTask()
-    * @generated
+    /**
+     * Returns the com.xnzk.flash.meta object for the attribute
+     * '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.Task#getName <em>Name</em>}'.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     *
+     * @return the com.xnzk.flash.meta object for the attribute '<em>Name</em>'.
+     * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.Task#getName()
+     * @see #getTask()
+     * @generated
     */
    EAttribute getTask_Name();
 
-   /**
-    * Returns the meta object for the attribute
-    * '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.Task#getDuration <em>Duration</em>}'.
-    * <!-- begin-user-doc -->
-    * <!-- end-user-doc -->
-    *
-    * @return the meta object for the attribute '<em>Duration</em>'.
-    * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.Task#getDuration()
-    * @see #getTask()
-    * @generated
+    /**
+     * Returns the com.xnzk.flash.meta object for the attribute
+     * '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.Task#getDuration <em>Duration</em>}'.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     *
+     * @return the com.xnzk.flash.meta object for the attribute '<em>Duration</em>'.
+     * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.Task#getDuration()
+     * @see #getTask()
+     * @generated
     */
    EAttribute getTask_Duration();
 
-   /**
-    * Returns the meta object for class '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.AutomaticTask
-    * <em>Automatic Task</em>}'.
-    * <!-- begin-user-doc -->
-    * <!-- end-user-doc -->
-    *
-    * @return the meta object for class '<em>Automatic Task</em>'.
-    * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.AutomaticTask
-    * @generated
+    /**
+     * Returns the com.xnzk.flash.meta object for class '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.AutomaticTask
+     * <em>Automatic Task</em>}'.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     *
+     * @return the com.xnzk.flash.meta object for class '<em>Automatic Task</em>'.
+     * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.AutomaticTask
+     * @generated
     */
    EClass getAutomaticTask();
 
-   /**
-    * Returns the meta object for the reference
-    * '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.AutomaticTask#getComponent <em>Component</em>}'.
-    * <!-- begin-user-doc -->
-    * <!-- end-user-doc -->
-    *
-    * @return the meta object for the reference '<em>Component</em>'.
-    * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.AutomaticTask#getComponent()
-    * @see #getAutomaticTask()
-    * @generated
+    /**
+     * Returns the com.xnzk.flash.meta object for the reference
+     * '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.AutomaticTask#getComponent <em>Component</em>}'.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     *
+     * @return the com.xnzk.flash.meta object for the reference '<em>Component</em>'.
+     * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.AutomaticTask#getComponent()
+     * @see #getAutomaticTask()
+     * @generated
     */
    EReference getAutomaticTask_Component();
 
-   /**
-    * Returns the meta object for class '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.ManualTask
-    * <em>Manual Task</em>}'.
-    * <!-- begin-user-doc -->
-    * <!-- end-user-doc -->
-    *
-    * @return the meta object for class '<em>Manual Task</em>'.
-    * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.ManualTask
-    * @generated
+    /**
+     * Returns the com.xnzk.flash.meta object for class '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.ManualTask
+     * <em>Manual Task</em>}'.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     *
+     * @return the com.xnzk.flash.meta object for class '<em>Manual Task</em>'.
+     * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.ManualTask
+     * @generated
     */
    EClass getManualTask();
 
-   /**
-    * Returns the meta object for the attribute
-    * '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.ManualTask#getActor <em>Actor</em>}'.
-    * <!-- begin-user-doc -->
-    * <!-- end-user-doc -->
-    *
-    * @return the meta object for the attribute '<em>Actor</em>'.
-    * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.ManualTask#getActor()
-    * @see #getManualTask()
-    * @generated
+    /**
+     * Returns the com.xnzk.flash.meta object for the attribute
+     * '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.ManualTask#getActor <em>Actor</em>}'.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     *
+     * @return the com.xnzk.flash.meta object for the attribute '<em>Actor</em>'.
+     * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.ManualTask#getActor()
+     * @see #getManualTask()
+     * @generated
     */
    EAttribute getManualTask_Actor();
 
-   /**
-    * Returns the meta object for class '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.Fork
-    * <em>Fork</em>}'.
-    * <!-- begin-user-doc -->
-    * <!-- end-user-doc -->
-    *
-    * @return the meta object for class '<em>Fork</em>'.
-    * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.Fork
-    * @generated
+    /**
+     * Returns the com.xnzk.flash.meta object for class '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.Fork
+     * <em>Fork</em>}'.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     *
+     * @return the com.xnzk.flash.meta object for class '<em>Fork</em>'.
+     * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.Fork
+     * @generated
     */
    EClass getFork();
 
-   /**
-    * Returns the meta object for class '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.Join
-    * <em>Join</em>}'.
-    * <!-- begin-user-doc -->
-    * <!-- end-user-doc -->
-    *
-    * @return the meta object for class '<em>Join</em>'.
-    * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.Join
-    * @generated
+    /**
+     * Returns the com.xnzk.flash.meta object for class '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.Join
+     * <em>Join</em>}'.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     *
+     * @return the com.xnzk.flash.meta object for class '<em>Join</em>'.
+     * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.Join
+     * @generated
     */
    EClass getJoin();
 
-   /**
-    * Returns the meta object for class '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.Decision
-    * <em>Decision</em>}'.
-    * <!-- begin-user-doc -->
-    * <!-- end-user-doc -->
-    *
-    * @return the meta object for class '<em>Decision</em>'.
-    * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.Decision
-    * @generated
+    /**
+     * Returns the com.xnzk.flash.meta object for class '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.Decision
+     * <em>Decision</em>}'.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     *
+     * @return the com.xnzk.flash.meta object for class '<em>Decision</em>'.
+     * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.Decision
+     * @generated
     */
    EClass getDecision();
 
-   /**
-    * Returns the meta object for class '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.Merge
-    * <em>Merge</em>}'.
-    * <!-- begin-user-doc -->
-    * <!-- end-user-doc -->
-    *
-    * @return the meta object for class '<em>Merge</em>'.
-    * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.Merge
-    * @generated
+    /**
+     * Returns the com.xnzk.flash.meta object for class '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.Merge
+     * <em>Merge</em>}'.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     *
+     * @return the com.xnzk.flash.meta object for class '<em>Merge</em>'.
+     * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.Merge
+     * @generated
     */
    EClass getMerge();
 
-   /**
-    * Returns the meta object for class '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.Flow
-    * <em>Flow</em>}'.
-    * <!-- begin-user-doc -->
-    * <!-- end-user-doc -->
-    *
-    * @return the meta object for class '<em>Flow</em>'.
-    * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.Flow
-    * @generated
+    /**
+     * Returns the com.xnzk.flash.meta object for class '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.Flow
+     * <em>Flow</em>}'.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     *
+     * @return the com.xnzk.flash.meta object for class '<em>Flow</em>'.
+     * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.Flow
+     * @generated
     */
    EClass getFlow();
 
-   /**
-    * Returns the meta object for the reference
-    * '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.Flow#getSource <em>Source</em>}'.
-    * <!-- begin-user-doc -->
-    * <!-- end-user-doc -->
-    *
-    * @return the meta object for the reference '<em>Source</em>'.
-    * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.Flow#getSource()
-    * @see #getFlow()
-    * @generated
+    /**
+     * Returns the com.xnzk.flash.meta object for the reference
+     * '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.Flow#getSource <em>Source</em>}'.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     *
+     * @return the com.xnzk.flash.meta object for the reference '<em>Source</em>'.
+     * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.Flow#getSource()
+     * @see #getFlow()
+     * @generated
     */
    EReference getFlow_Source();
 
-   /**
-    * Returns the meta object for the reference
-    * '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.Flow#getTarget <em>Target</em>}'.
-    * <!-- begin-user-doc -->
-    * <!-- end-user-doc -->
-    *
-    * @return the meta object for the reference '<em>Target</em>'.
-    * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.Flow#getTarget()
-    * @see #getFlow()
-    * @generated
+    /**
+     * Returns the com.xnzk.flash.meta object for the reference
+     * '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.Flow#getTarget <em>Target</em>}'.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     *
+     * @return the com.xnzk.flash.meta object for the reference '<em>Target</em>'.
+     * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.Flow#getTarget()
+     * @see #getFlow()
+     * @generated
     */
    EReference getFlow_Target();
 
-   /**
-    * Returns the meta object for class '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.WeightedFlow
-    * <em>Weighted Flow</em>}'.
-    * <!-- begin-user-doc -->
-    * <!-- end-user-doc -->
-    *
-    * @return the meta object for class '<em>Weighted Flow</em>'.
-    * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.WeightedFlow
-    * @generated
+    /**
+     * Returns the com.xnzk.flash.meta object for class '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.WeightedFlow
+     * <em>Weighted Flow</em>}'.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     *
+     * @return the com.xnzk.flash.meta object for class '<em>Weighted Flow</em>'.
+     * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.WeightedFlow
+     * @generated
     */
    EClass getWeightedFlow();
 
-   /**
-    * Returns the meta object for the attribute
-    * '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.WeightedFlow#getProbability <em>Probability</em>}'.
-    * <!-- begin-user-doc -->
-    * <!-- end-user-doc -->
-    *
-    * @return the meta object for the attribute '<em>Probability</em>'.
-    * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.WeightedFlow#getProbability()
-    * @see #getWeightedFlow()
-    * @generated
+    /**
+     * Returns the com.xnzk.flash.meta object for the attribute
+     * '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.WeightedFlow#getProbability <em>Probability</em>}'.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     *
+     * @return the com.xnzk.flash.meta object for the attribute '<em>Probability</em>'.
+     * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.WeightedFlow#getProbability()
+     * @see #getWeightedFlow()
+     * @generated
     */
    EAttribute getWeightedFlow_Probability();
 
-   /**
-    * Returns the meta object for enum '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.SocketConnectorType
-    * <em>Socket Connector Type</em>}'.
-    * <!-- begin-user-doc -->
-    * <!-- end-user-doc -->
-    *
-    * @return the meta object for enum '<em>Socket Connector Type</em>'.
-    * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.SocketConnectorType
-    * @generated
+    /**
+     * Returns the com.xnzk.flash.meta object for enum '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.SocketConnectorType
+     * <em>Socket Connector Type</em>}'.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     *
+     * @return the com.xnzk.flash.meta object for enum '<em>Socket Connector Type</em>'.
+     * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.SocketConnectorType
+     * @generated
     */
    EEnum getSocketConnectorType();
 
-   /**
-    * Returns the meta object for enum '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.ManufactoringProcess
-    * <em>Manufactoring Process</em>}'.
-    * <!-- begin-user-doc -->
-    * <!-- end-user-doc -->
-    *
-    * @return the meta object for enum '<em>Manufactoring Process</em>'.
-    * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.ManufactoringProcess
-    * @generated
+    /**
+     * Returns the com.xnzk.flash.meta object for enum '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.ManufactoringProcess
+     * <em>Manufactoring Process</em>}'.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     *
+     * @return the com.xnzk.flash.meta object for enum '<em>Manufactoring Process</em>'.
+     * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.ManufactoringProcess
+     * @generated
     */
    EEnum getManufactoringProcess();
 
-   /**
-    * Returns the meta object for enum '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.RamType <em>Ram
-    * Type</em>}'.
-    * <!-- begin-user-doc -->
-    * <!-- end-user-doc -->
-    *
-    * @return the meta object for enum '<em>Ram Type</em>'.
-    * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.RamType
-    * @generated
+    /**
+     * Returns the com.xnzk.flash.meta object for enum '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.RamType <em>Ram
+     * Type</em>}'.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     *
+     * @return the com.xnzk.flash.meta object for enum '<em>Ram Type</em>'.
+     * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.RamType
+     * @generated
     */
    EEnum getRamType();
 
-   /**
-    * Returns the meta object for enum '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.Probability
-    * <em>Probability</em>}'.
-    * <!-- begin-user-doc -->
-    * <!-- end-user-doc -->
-    *
-    * @return the meta object for enum '<em>Probability</em>'.
-    * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.Probability
-    * @generated
+    /**
+     * Returns the com.xnzk.flash.meta object for enum '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.Probability
+     * <em>Probability</em>}'.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     *
+     * @return the com.xnzk.flash.meta object for enum '<em>Probability</em>'.
+     * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.Probability
+     * @generated
     */
    EEnum getProbability();
 
@@ -2023,622 +2023,622 @@ public interface CoffeePackage extends EPackage {
     */
    CoffeeFactory getCoffeeFactory();
 
-   /**
-    * <!-- begin-user-doc -->
-    * Defines literals for the meta objects that represent
-    * <ul>
-    * <li>each class,</li>
-    * <li>each feature of each class,</li>
-    * <li>each operation of each class,</li>
-    * <li>each enum,</li>
-    * <li>and each data type</li>
-    * </ul>
-    * <!-- end-user-doc -->
-    *
-    * @generated
+    /**
+     * <!-- begin-user-doc -->
+     * Defines literals for the com.xnzk.flash.meta objects that represent
+     * <ul>
+     * <li>each class,</li>
+     * <li>each feature of each class,</li>
+     * <li>each operation of each class,</li>
+     * <li>each enum,</li>
+     * <li>and each data type</li>
+     * </ul>
+     * <!-- end-user-doc -->
+     *
+     * @generated
     */
    interface Literals {
-      /**
-       * The meta object literal for the '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.ComponentImpl
-       * <em>Component</em>}' class.
-       * <!-- begin-user-doc -->
-       * <!-- end-user-doc -->
-       *
-       * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.ComponentImpl
-       * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.CoffeePackageImpl#getComponent()
-       * @generated
-       */
+        /**
+         * The com.xnzk.flash.meta object literal for the '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.ComponentImpl
+         * <em>Component</em>}' class.
+         * <!-- begin-user-doc -->
+         * <!-- end-user-doc -->
+         *
+         * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.ComponentImpl
+         * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.CoffeePackageImpl#getComponent()
+         * @generated
+         */
       EClass COMPONENT = eINSTANCE.getComponent();
 
-      /**
-       * The meta object literal for the '<em><b>Children</b></em>' containment reference list feature.
-       * <!-- begin-user-doc -->
-       * <!-- end-user-doc -->
-       *
-       * @generated
-       */
+        /**
+         * The com.xnzk.flash.meta object literal for the '<em><b>Children</b></em>' containment reference list feature.
+         * <!-- begin-user-doc -->
+         * <!-- end-user-doc -->
+         *
+         * @generated
+         */
       EReference COMPONENT__CHILDREN = eINSTANCE.getComponent_Children();
 
-      /**
-       * The meta object literal for the '<em><b>Parent</b></em>' container reference feature.
-       * <!-- begin-user-doc -->
-       * <!-- end-user-doc -->
-       *
-       * @generated
-       */
+        /**
+         * The com.xnzk.flash.meta object literal for the '<em><b>Parent</b></em>' container reference feature.
+         * <!-- begin-user-doc -->
+         * <!-- end-user-doc -->
+         *
+         * @generated
+         */
       EReference COMPONENT__PARENT = eINSTANCE.getComponent_Parent();
 
-      /**
-       * The meta object literal for the '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.MachineImpl
-       * <em>Machine</em>}' class.
-       * <!-- begin-user-doc -->
-       * <!-- end-user-doc -->
-       *
-       * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.MachineImpl
-       * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.CoffeePackageImpl#getMachine()
-       * @generated
-       */
+        /**
+         * The com.xnzk.flash.meta object literal for the '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.MachineImpl
+         * <em>Machine</em>}' class.
+         * <!-- begin-user-doc -->
+         * <!-- end-user-doc -->
+         *
+         * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.MachineImpl
+         * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.CoffeePackageImpl#getMachine()
+         * @generated
+         */
       EClass MACHINE = eINSTANCE.getMachine();
 
-      /**
-       * The meta object literal for the '<em><b>Name</b></em>' attribute feature.
-       * <!-- begin-user-doc -->
-       * <!-- end-user-doc -->
-       *
-       * @generated
-       */
+        /**
+         * The com.xnzk.flash.meta object literal for the '<em><b>Name</b></em>' attribute feature.
+         * <!-- begin-user-doc -->
+         * <!-- end-user-doc -->
+         *
+         * @generated
+         */
       EAttribute MACHINE__NAME = eINSTANCE.getMachine_Name();
 
-      /**
-       * The meta object literal for the '<em><b>Workflows</b></em>' containment reference list feature.
-       * <!-- begin-user-doc -->
-       * <!-- end-user-doc -->
-       *
-       * @generated
-       */
+        /**
+         * The com.xnzk.flash.meta object literal for the '<em><b>Workflows</b></em>' containment reference list feature.
+         * <!-- begin-user-doc -->
+         * <!-- end-user-doc -->
+         *
+         * @generated
+         */
       EReference MACHINE__WORKFLOWS = eINSTANCE.getMachine_Workflows();
 
-      /**
-       * The meta object literal for the
-       * '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.ControlUnitImpl <em>Control Unit</em>}'
-       * class.
-       * <!-- begin-user-doc -->
-       * <!-- end-user-doc -->
-       *
-       * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.ControlUnitImpl
-       * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.CoffeePackageImpl#getControlUnit()
-       * @generated
-       */
+        /**
+         * The com.xnzk.flash.meta object literal for the
+         * '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.ControlUnitImpl <em>Control Unit</em>}'
+         * class.
+         * <!-- begin-user-doc -->
+         * <!-- end-user-doc -->
+         *
+         * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.ControlUnitImpl
+         * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.CoffeePackageImpl#getControlUnit()
+         * @generated
+         */
       EClass CONTROL_UNIT = eINSTANCE.getControlUnit();
 
-      /**
-       * The meta object literal for the '<em><b>Processor</b></em>' containment reference feature.
-       * <!-- begin-user-doc -->
-       * <!-- end-user-doc -->
-       *
-       * @generated
-       */
+        /**
+         * The com.xnzk.flash.meta object literal for the '<em><b>Processor</b></em>' containment reference feature.
+         * <!-- begin-user-doc -->
+         * <!-- end-user-doc -->
+         *
+         * @generated
+         */
       EReference CONTROL_UNIT__PROCESSOR = eINSTANCE.getControlUnit_Processor();
 
-      /**
-       * The meta object literal for the '<em><b>Dimension</b></em>' containment reference feature.
-       * <!-- begin-user-doc -->
-       * <!-- end-user-doc -->
-       *
-       * @generated
-       */
+        /**
+         * The com.xnzk.flash.meta object literal for the '<em><b>Dimension</b></em>' containment reference feature.
+         * <!-- begin-user-doc -->
+         * <!-- end-user-doc -->
+         *
+         * @generated
+         */
       EReference CONTROL_UNIT__DIMENSION = eINSTANCE.getControlUnit_Dimension();
 
-      /**
-       * The meta object literal for the '<em><b>Ram</b></em>' containment reference list feature.
-       * <!-- begin-user-doc -->
-       * <!-- end-user-doc -->
-       *
-       * @generated
-       */
+        /**
+         * The com.xnzk.flash.meta object literal for the '<em><b>Ram</b></em>' containment reference list feature.
+         * <!-- begin-user-doc -->
+         * <!-- end-user-doc -->
+         *
+         * @generated
+         */
       EReference CONTROL_UNIT__RAM = eINSTANCE.getControlUnit_Ram();
 
-      /**
-       * The meta object literal for the '<em><b>Display</b></em>' containment reference feature.
-       * <!-- begin-user-doc -->
-       * <!-- end-user-doc -->
-       *
-       * @generated
-       */
+        /**
+         * The com.xnzk.flash.meta object literal for the '<em><b>Display</b></em>' containment reference feature.
+         * <!-- begin-user-doc -->
+         * <!-- end-user-doc -->
+         *
+         * @generated
+         */
       EReference CONTROL_UNIT__DISPLAY = eINSTANCE.getControlUnit_Display();
 
-      /**
-       * The meta object literal for the '<em><b>User Description</b></em>' attribute feature.
-       * <!-- begin-user-doc -->
-       * <!-- end-user-doc -->
-       *
-       * @generated
-       */
+        /**
+         * The com.xnzk.flash.meta object literal for the '<em><b>User Description</b></em>' attribute feature.
+         * <!-- begin-user-doc -->
+         * <!-- end-user-doc -->
+         *
+         * @generated
+         */
       EAttribute CONTROL_UNIT__USER_DESCRIPTION = eINSTANCE.getControlUnit_UserDescription();
 
-      /**
-       * The meta object literal for the
-       * '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.BrewingUnitImpl <em>Brewing Unit</em>}'
-       * class.
-       * <!-- begin-user-doc -->
-       * <!-- end-user-doc -->
-       *
-       * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.BrewingUnitImpl
-       * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.CoffeePackageImpl#getBrewingUnit()
-       * @generated
-       */
+        /**
+         * The com.xnzk.flash.meta object literal for the
+         * '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.BrewingUnitImpl <em>Brewing Unit</em>}'
+         * class.
+         * <!-- begin-user-doc -->
+         * <!-- end-user-doc -->
+         *
+         * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.BrewingUnitImpl
+         * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.CoffeePackageImpl#getBrewingUnit()
+         * @generated
+         */
       EClass BREWING_UNIT = eINSTANCE.getBrewingUnit();
 
-      /**
-       * The meta object literal for the '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.DipTrayImpl
-       * <em>Dip Tray</em>}' class.
-       * <!-- begin-user-doc -->
-       * <!-- end-user-doc -->
-       *
-       * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.DipTrayImpl
-       * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.CoffeePackageImpl#getDipTray()
-       * @generated
-       */
+        /**
+         * The com.xnzk.flash.meta object literal for the '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.DipTrayImpl
+         * <em>Dip Tray</em>}' class.
+         * <!-- begin-user-doc -->
+         * <!-- end-user-doc -->
+         *
+         * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.DipTrayImpl
+         * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.CoffeePackageImpl#getDipTray()
+         * @generated
+         */
       EClass DIP_TRAY = eINSTANCE.getDipTray();
 
-      /**
-       * The meta object literal for the '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.WaterTankImpl
-       * <em>Water Tank</em>}' class.
-       * <!-- begin-user-doc -->
-       * <!-- end-user-doc -->
-       *
-       * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.WaterTankImpl
-       * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.CoffeePackageImpl#getWaterTank()
-       * @generated
-       */
+        /**
+         * The com.xnzk.flash.meta object literal for the '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.WaterTankImpl
+         * <em>Water Tank</em>}' class.
+         * <!-- begin-user-doc -->
+         * <!-- end-user-doc -->
+         *
+         * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.WaterTankImpl
+         * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.CoffeePackageImpl#getWaterTank()
+         * @generated
+         */
       EClass WATER_TANK = eINSTANCE.getWaterTank();
 
-      /**
-       * The meta object literal for the '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.ProcessorImpl
-       * <em>Processor</em>}' class.
-       * <!-- begin-user-doc -->
-       * <!-- end-user-doc -->
-       *
-       * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.ProcessorImpl
-       * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.CoffeePackageImpl#getProcessor()
-       * @generated
-       */
+        /**
+         * The com.xnzk.flash.meta object literal for the '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.ProcessorImpl
+         * <em>Processor</em>}' class.
+         * <!-- begin-user-doc -->
+         * <!-- end-user-doc -->
+         *
+         * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.ProcessorImpl
+         * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.CoffeePackageImpl#getProcessor()
+         * @generated
+         */
       EClass PROCESSOR = eINSTANCE.getProcessor();
 
-      /**
-       * The meta object literal for the '<em><b>Vendor</b></em>' attribute feature.
-       * <!-- begin-user-doc -->
-       * <!-- end-user-doc -->
-       *
-       * @generated
-       */
+        /**
+         * The com.xnzk.flash.meta object literal for the '<em><b>Vendor</b></em>' attribute feature.
+         * <!-- begin-user-doc -->
+         * <!-- end-user-doc -->
+         *
+         * @generated
+         */
       EAttribute PROCESSOR__VENDOR = eINSTANCE.getProcessor_Vendor();
 
-      /**
-       * The meta object literal for the '<em><b>Clock Speed</b></em>' attribute feature.
-       * <!-- begin-user-doc -->
-       * <!-- end-user-doc -->
-       *
-       * @generated
-       */
+        /**
+         * The com.xnzk.flash.meta object literal for the '<em><b>Clock Speed</b></em>' attribute feature.
+         * <!-- begin-user-doc -->
+         * <!-- end-user-doc -->
+         *
+         * @generated
+         */
       EAttribute PROCESSOR__CLOCK_SPEED = eINSTANCE.getProcessor_ClockSpeed();
 
-      /**
-       * The meta object literal for the '<em><b>Number Of Cores</b></em>' attribute feature.
-       * <!-- begin-user-doc -->
-       * <!-- end-user-doc -->
-       *
-       * @generated
-       */
+        /**
+         * The com.xnzk.flash.meta object literal for the '<em><b>Number Of Cores</b></em>' attribute feature.
+         * <!-- begin-user-doc -->
+         * <!-- end-user-doc -->
+         *
+         * @generated
+         */
       EAttribute PROCESSOR__NUMBER_OF_CORES = eINSTANCE.getProcessor_NumberOfCores();
 
-      /**
-       * The meta object literal for the '<em><b>Socketconnector Type</b></em>' attribute feature.
-       * <!-- begin-user-doc -->
-       * <!-- end-user-doc -->
-       *
-       * @generated
-       */
+        /**
+         * The com.xnzk.flash.meta object literal for the '<em><b>Socketconnector Type</b></em>' attribute feature.
+         * <!-- begin-user-doc -->
+         * <!-- end-user-doc -->
+         *
+         * @generated
+         */
       EAttribute PROCESSOR__SOCKETCONNECTOR_TYPE = eINSTANCE.getProcessor_SocketconnectorType();
 
-      /**
-       * The meta object literal for the '<em><b>Thermal Design Power</b></em>' attribute feature.
-       * <!-- begin-user-doc -->
-       * <!-- end-user-doc -->
-       *
-       * @generated
-       */
+        /**
+         * The com.xnzk.flash.meta object literal for the '<em><b>Thermal Design Power</b></em>' attribute feature.
+         * <!-- begin-user-doc -->
+         * <!-- end-user-doc -->
+         *
+         * @generated
+         */
       EAttribute PROCESSOR__THERMAL_DESIGN_POWER = eINSTANCE.getProcessor_ThermalDesignPower();
 
-      /**
-       * The meta object literal for the '<em><b>Manufactoring Process</b></em>' attribute feature.
-       * <!-- begin-user-doc -->
-       * <!-- end-user-doc -->
-       *
-       * @generated
-       */
+        /**
+         * The com.xnzk.flash.meta object literal for the '<em><b>Manufactoring Process</b></em>' attribute feature.
+         * <!-- begin-user-doc -->
+         * <!-- end-user-doc -->
+         *
+         * @generated
+         */
       EAttribute PROCESSOR__MANUFACTORING_PROCESS = eINSTANCE.getProcessor_ManufactoringProcess();
 
-      /**
-       * The meta object literal for the '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.DimensionImpl
-       * <em>Dimension</em>}' class.
-       * <!-- begin-user-doc -->
-       * <!-- end-user-doc -->
-       *
-       * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.DimensionImpl
-       * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.CoffeePackageImpl#getDimension()
-       * @generated
-       */
+        /**
+         * The com.xnzk.flash.meta object literal for the '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.DimensionImpl
+         * <em>Dimension</em>}' class.
+         * <!-- begin-user-doc -->
+         * <!-- end-user-doc -->
+         *
+         * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.DimensionImpl
+         * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.CoffeePackageImpl#getDimension()
+         * @generated
+         */
       EClass DIMENSION = eINSTANCE.getDimension();
 
-      /**
-       * The meta object literal for the '<em><b>Width</b></em>' attribute feature.
-       * <!-- begin-user-doc -->
-       * <!-- end-user-doc -->
-       *
-       * @generated
-       */
+        /**
+         * The com.xnzk.flash.meta object literal for the '<em><b>Width</b></em>' attribute feature.
+         * <!-- begin-user-doc -->
+         * <!-- end-user-doc -->
+         *
+         * @generated
+         */
       EAttribute DIMENSION__WIDTH = eINSTANCE.getDimension_Width();
 
-      /**
-       * The meta object literal for the '<em><b>Height</b></em>' attribute feature.
-       * <!-- begin-user-doc -->
-       * <!-- end-user-doc -->
-       *
-       * @generated
-       */
+        /**
+         * The com.xnzk.flash.meta object literal for the '<em><b>Height</b></em>' attribute feature.
+         * <!-- begin-user-doc -->
+         * <!-- end-user-doc -->
+         *
+         * @generated
+         */
       EAttribute DIMENSION__HEIGHT = eINSTANCE.getDimension_Height();
 
-      /**
-       * The meta object literal for the '<em><b>Length</b></em>' attribute feature.
-       * <!-- begin-user-doc -->
-       * <!-- end-user-doc -->
-       *
-       * @generated
-       */
+        /**
+         * The com.xnzk.flash.meta object literal for the '<em><b>Length</b></em>' attribute feature.
+         * <!-- begin-user-doc -->
+         * <!-- end-user-doc -->
+         *
+         * @generated
+         */
       EAttribute DIMENSION__LENGTH = eINSTANCE.getDimension_Length();
 
-      /**
-       * The meta object literal for the '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.RAMImpl
-       * <em>RAM</em>}' class.
-       * <!-- begin-user-doc -->
-       * <!-- end-user-doc -->
-       *
-       * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.RAMImpl
-       * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.CoffeePackageImpl#getRAM()
-       * @generated
-       */
+        /**
+         * The com.xnzk.flash.meta object literal for the '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.RAMImpl
+         * <em>RAM</em>}' class.
+         * <!-- begin-user-doc -->
+         * <!-- end-user-doc -->
+         *
+         * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.RAMImpl
+         * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.CoffeePackageImpl#getRAM()
+         * @generated
+         */
       EClass RAM = eINSTANCE.getRAM();
 
-      /**
-       * The meta object literal for the '<em><b>Clock Speed</b></em>' attribute feature.
-       * <!-- begin-user-doc -->
-       * <!-- end-user-doc -->
-       *
-       * @generated
-       */
+        /**
+         * The com.xnzk.flash.meta object literal for the '<em><b>Clock Speed</b></em>' attribute feature.
+         * <!-- begin-user-doc -->
+         * <!-- end-user-doc -->
+         *
+         * @generated
+         */
       EAttribute RAM__CLOCK_SPEED = eINSTANCE.getRAM_ClockSpeed();
 
-      /**
-       * The meta object literal for the '<em><b>Size</b></em>' attribute feature.
-       * <!-- begin-user-doc -->
-       * <!-- end-user-doc -->
-       *
-       * @generated
-       */
+        /**
+         * The com.xnzk.flash.meta object literal for the '<em><b>Size</b></em>' attribute feature.
+         * <!-- begin-user-doc -->
+         * <!-- end-user-doc -->
+         *
+         * @generated
+         */
       EAttribute RAM__SIZE = eINSTANCE.getRAM_Size();
 
-      /**
-       * The meta object literal for the '<em><b>Type</b></em>' attribute feature.
-       * <!-- begin-user-doc -->
-       * <!-- end-user-doc -->
-       *
-       * @generated
-       */
+        /**
+         * The com.xnzk.flash.meta object literal for the '<em><b>Type</b></em>' attribute feature.
+         * <!-- begin-user-doc -->
+         * <!-- end-user-doc -->
+         *
+         * @generated
+         */
       EAttribute RAM__TYPE = eINSTANCE.getRAM_Type();
 
-      /**
-       * The meta object literal for the '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.DisplayImpl
-       * <em>Display</em>}' class.
-       * <!-- begin-user-doc -->
-       * <!-- end-user-doc -->
-       *
-       * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.DisplayImpl
-       * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.CoffeePackageImpl#getDisplay()
-       * @generated
-       */
+        /**
+         * The com.xnzk.flash.meta object literal for the '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.DisplayImpl
+         * <em>Display</em>}' class.
+         * <!-- begin-user-doc -->
+         * <!-- end-user-doc -->
+         *
+         * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.DisplayImpl
+         * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.CoffeePackageImpl#getDisplay()
+         * @generated
+         */
       EClass DISPLAY = eINSTANCE.getDisplay();
 
-      /**
-       * The meta object literal for the '<em><b>Width</b></em>' attribute feature.
-       * <!-- begin-user-doc -->
-       * <!-- end-user-doc -->
-       *
-       * @generated
-       */
+        /**
+         * The com.xnzk.flash.meta object literal for the '<em><b>Width</b></em>' attribute feature.
+         * <!-- begin-user-doc -->
+         * <!-- end-user-doc -->
+         *
+         * @generated
+         */
       EAttribute DISPLAY__WIDTH = eINSTANCE.getDisplay_Width();
 
-      /**
-       * The meta object literal for the '<em><b>Height</b></em>' attribute feature.
-       * <!-- begin-user-doc -->
-       * <!-- end-user-doc -->
-       *
-       * @generated
-       */
+        /**
+         * The com.xnzk.flash.meta object literal for the '<em><b>Height</b></em>' attribute feature.
+         * <!-- begin-user-doc -->
+         * <!-- end-user-doc -->
+         *
+         * @generated
+         */
       EAttribute DISPLAY__HEIGHT = eINSTANCE.getDisplay_Height();
 
-      /**
-       * The meta object literal for the '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.WorkflowImpl
-       * <em>Workflow</em>}' class.
-       * <!-- begin-user-doc -->
-       * <!-- end-user-doc -->
-       *
-       * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.WorkflowImpl
-       * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.CoffeePackageImpl#getWorkflow()
-       * @generated
-       */
+        /**
+         * The com.xnzk.flash.meta object literal for the '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.WorkflowImpl
+         * <em>Workflow</em>}' class.
+         * <!-- begin-user-doc -->
+         * <!-- end-user-doc -->
+         *
+         * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.WorkflowImpl
+         * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.CoffeePackageImpl#getWorkflow()
+         * @generated
+         */
       EClass WORKFLOW = eINSTANCE.getWorkflow();
 
-      /**
-       * The meta object literal for the '<em><b>Name</b></em>' attribute feature.
-       * <!-- begin-user-doc -->
-       * <!-- end-user-doc -->
-       *
-       * @generated
-       */
+        /**
+         * The com.xnzk.flash.meta object literal for the '<em><b>Name</b></em>' attribute feature.
+         * <!-- begin-user-doc -->
+         * <!-- end-user-doc -->
+         *
+         * @generated
+         */
       EAttribute WORKFLOW__NAME = eINSTANCE.getWorkflow_Name();
 
-      /**
-       * The meta object literal for the '<em><b>Nodes</b></em>' containment reference list feature.
-       * <!-- begin-user-doc -->
-       * <!-- end-user-doc -->
-       *
-       * @generated
-       */
+        /**
+         * The com.xnzk.flash.meta object literal for the '<em><b>Nodes</b></em>' containment reference list feature.
+         * <!-- begin-user-doc -->
+         * <!-- end-user-doc -->
+         *
+         * @generated
+         */
       EReference WORKFLOW__NODES = eINSTANCE.getWorkflow_Nodes();
 
-      /**
-       * The meta object literal for the '<em><b>Flows</b></em>' containment reference list feature.
-       * <!-- begin-user-doc -->
-       * <!-- end-user-doc -->
-       *
-       * @generated
-       */
+        /**
+         * The com.xnzk.flash.meta object literal for the '<em><b>Flows</b></em>' containment reference list feature.
+         * <!-- begin-user-doc -->
+         * <!-- end-user-doc -->
+         *
+         * @generated
+         */
       EReference WORKFLOW__FLOWS = eINSTANCE.getWorkflow_Flows();
 
-      /**
-       * The meta object literal for the '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.NodeImpl
-       * <em>Node</em>}' class.
-       * <!-- begin-user-doc -->
-       * <!-- end-user-doc -->
-       *
-       * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.NodeImpl
-       * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.CoffeePackageImpl#getNode()
-       * @generated
-       */
+        /**
+         * The com.xnzk.flash.meta object literal for the '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.NodeImpl
+         * <em>Node</em>}' class.
+         * <!-- begin-user-doc -->
+         * <!-- end-user-doc -->
+         *
+         * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.NodeImpl
+         * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.CoffeePackageImpl#getNode()
+         * @generated
+         */
       EClass NODE = eINSTANCE.getNode();
 
-      /**
-       * The meta object literal for the '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.TaskImpl
-       * <em>Task</em>}' class.
-       * <!-- begin-user-doc -->
-       * <!-- end-user-doc -->
-       *
-       * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.TaskImpl
-       * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.CoffeePackageImpl#getTask()
-       * @generated
-       */
+        /**
+         * The com.xnzk.flash.meta object literal for the '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.TaskImpl
+         * <em>Task</em>}' class.
+         * <!-- begin-user-doc -->
+         * <!-- end-user-doc -->
+         *
+         * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.TaskImpl
+         * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.CoffeePackageImpl#getTask()
+         * @generated
+         */
       EClass TASK = eINSTANCE.getTask();
 
-      /**
-       * The meta object literal for the '<em><b>Name</b></em>' attribute feature.
-       * <!-- begin-user-doc -->
-       * <!-- end-user-doc -->
-       *
-       * @generated
-       */
+        /**
+         * The com.xnzk.flash.meta object literal for the '<em><b>Name</b></em>' attribute feature.
+         * <!-- begin-user-doc -->
+         * <!-- end-user-doc -->
+         *
+         * @generated
+         */
       EAttribute TASK__NAME = eINSTANCE.getTask_Name();
 
-      /**
-       * The meta object literal for the '<em><b>Duration</b></em>' attribute feature.
-       * <!-- begin-user-doc -->
-       * <!-- end-user-doc -->
-       *
-       * @generated
-       */
+        /**
+         * The com.xnzk.flash.meta object literal for the '<em><b>Duration</b></em>' attribute feature.
+         * <!-- begin-user-doc -->
+         * <!-- end-user-doc -->
+         *
+         * @generated
+         */
       EAttribute TASK__DURATION = eINSTANCE.getTask_Duration();
 
-      /**
-       * The meta object literal for the
-       * '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.AutomaticTaskImpl <em>Automatic Task</em>}'
-       * class.
-       * <!-- begin-user-doc -->
-       * <!-- end-user-doc -->
-       *
-       * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.AutomaticTaskImpl
-       * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.CoffeePackageImpl#getAutomaticTask()
-       * @generated
-       */
+        /**
+         * The com.xnzk.flash.meta object literal for the
+         * '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.AutomaticTaskImpl <em>Automatic Task</em>}'
+         * class.
+         * <!-- begin-user-doc -->
+         * <!-- end-user-doc -->
+         *
+         * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.AutomaticTaskImpl
+         * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.CoffeePackageImpl#getAutomaticTask()
+         * @generated
+         */
       EClass AUTOMATIC_TASK = eINSTANCE.getAutomaticTask();
 
-      /**
-       * The meta object literal for the '<em><b>Component</b></em>' reference feature.
-       * <!-- begin-user-doc -->
-       * <!-- end-user-doc -->
-       *
-       * @generated
-       */
+        /**
+         * The com.xnzk.flash.meta object literal for the '<em><b>Component</b></em>' reference feature.
+         * <!-- begin-user-doc -->
+         * <!-- end-user-doc -->
+         *
+         * @generated
+         */
       EReference AUTOMATIC_TASK__COMPONENT = eINSTANCE.getAutomaticTask_Component();
 
-      /**
-       * The meta object literal for the
-       * '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.ManualTaskImpl <em>Manual Task</em>}' class.
-       * <!-- begin-user-doc -->
-       * <!-- end-user-doc -->
-       *
-       * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.ManualTaskImpl
-       * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.CoffeePackageImpl#getManualTask()
-       * @generated
-       */
+        /**
+         * The com.xnzk.flash.meta object literal for the
+         * '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.ManualTaskImpl <em>Manual Task</em>}' class.
+         * <!-- begin-user-doc -->
+         * <!-- end-user-doc -->
+         *
+         * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.ManualTaskImpl
+         * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.CoffeePackageImpl#getManualTask()
+         * @generated
+         */
       EClass MANUAL_TASK = eINSTANCE.getManualTask();
 
-      /**
-       * The meta object literal for the '<em><b>Actor</b></em>' attribute feature.
-       * <!-- begin-user-doc -->
-       * <!-- end-user-doc -->
-       *
-       * @generated
-       */
+        /**
+         * The com.xnzk.flash.meta object literal for the '<em><b>Actor</b></em>' attribute feature.
+         * <!-- begin-user-doc -->
+         * <!-- end-user-doc -->
+         *
+         * @generated
+         */
       EAttribute MANUAL_TASK__ACTOR = eINSTANCE.getManualTask_Actor();
 
-      /**
-       * The meta object literal for the '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.ForkImpl
-       * <em>Fork</em>}' class.
-       * <!-- begin-user-doc -->
-       * <!-- end-user-doc -->
-       *
-       * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.ForkImpl
-       * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.CoffeePackageImpl#getFork()
-       * @generated
-       */
+        /**
+         * The com.xnzk.flash.meta object literal for the '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.ForkImpl
+         * <em>Fork</em>}' class.
+         * <!-- begin-user-doc -->
+         * <!-- end-user-doc -->
+         *
+         * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.ForkImpl
+         * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.CoffeePackageImpl#getFork()
+         * @generated
+         */
       EClass FORK = eINSTANCE.getFork();
 
-      /**
-       * The meta object literal for the '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.JoinImpl
-       * <em>Join</em>}' class.
-       * <!-- begin-user-doc -->
-       * <!-- end-user-doc -->
-       *
-       * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.JoinImpl
-       * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.CoffeePackageImpl#getJoin()
-       * @generated
-       */
+        /**
+         * The com.xnzk.flash.meta object literal for the '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.JoinImpl
+         * <em>Join</em>}' class.
+         * <!-- begin-user-doc -->
+         * <!-- end-user-doc -->
+         *
+         * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.JoinImpl
+         * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.CoffeePackageImpl#getJoin()
+         * @generated
+         */
       EClass JOIN = eINSTANCE.getJoin();
 
-      /**
-       * The meta object literal for the '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.DecisionImpl
-       * <em>Decision</em>}' class.
-       * <!-- begin-user-doc -->
-       * <!-- end-user-doc -->
-       *
-       * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.DecisionImpl
-       * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.CoffeePackageImpl#getDecision()
-       * @generated
-       */
+        /**
+         * The com.xnzk.flash.meta object literal for the '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.DecisionImpl
+         * <em>Decision</em>}' class.
+         * <!-- begin-user-doc -->
+         * <!-- end-user-doc -->
+         *
+         * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.DecisionImpl
+         * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.CoffeePackageImpl#getDecision()
+         * @generated
+         */
       EClass DECISION = eINSTANCE.getDecision();
 
-      /**
-       * The meta object literal for the '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.MergeImpl
-       * <em>Merge</em>}' class.
-       * <!-- begin-user-doc -->
-       * <!-- end-user-doc -->
-       *
-       * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.MergeImpl
-       * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.CoffeePackageImpl#getMerge()
-       * @generated
-       */
+        /**
+         * The com.xnzk.flash.meta object literal for the '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.MergeImpl
+         * <em>Merge</em>}' class.
+         * <!-- begin-user-doc -->
+         * <!-- end-user-doc -->
+         *
+         * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.MergeImpl
+         * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.CoffeePackageImpl#getMerge()
+         * @generated
+         */
       EClass MERGE = eINSTANCE.getMerge();
 
-      /**
-       * The meta object literal for the '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.FlowImpl
-       * <em>Flow</em>}' class.
-       * <!-- begin-user-doc -->
-       * <!-- end-user-doc -->
-       *
-       * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.FlowImpl
-       * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.CoffeePackageImpl#getFlow()
-       * @generated
-       */
+        /**
+         * The com.xnzk.flash.meta object literal for the '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.FlowImpl
+         * <em>Flow</em>}' class.
+         * <!-- begin-user-doc -->
+         * <!-- end-user-doc -->
+         *
+         * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.FlowImpl
+         * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.CoffeePackageImpl#getFlow()
+         * @generated
+         */
       EClass FLOW = eINSTANCE.getFlow();
 
-      /**
-       * The meta object literal for the '<em><b>Source</b></em>' reference feature.
-       * <!-- begin-user-doc -->
-       * <!-- end-user-doc -->
-       *
-       * @generated
-       */
+        /**
+         * The com.xnzk.flash.meta object literal for the '<em><b>Source</b></em>' reference feature.
+         * <!-- begin-user-doc -->
+         * <!-- end-user-doc -->
+         *
+         * @generated
+         */
       EReference FLOW__SOURCE = eINSTANCE.getFlow_Source();
 
-      /**
-       * The meta object literal for the '<em><b>Target</b></em>' reference feature.
-       * <!-- begin-user-doc -->
-       * <!-- end-user-doc -->
-       *
-       * @generated
-       */
+        /**
+         * The com.xnzk.flash.meta object literal for the '<em><b>Target</b></em>' reference feature.
+         * <!-- begin-user-doc -->
+         * <!-- end-user-doc -->
+         *
+         * @generated
+         */
       EReference FLOW__TARGET = eINSTANCE.getFlow_Target();
 
-      /**
-       * The meta object literal for the
-       * '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.WeightedFlowImpl <em>Weighted Flow</em>}'
-       * class.
-       * <!-- begin-user-doc -->
-       * <!-- end-user-doc -->
-       *
-       * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.WeightedFlowImpl
-       * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.CoffeePackageImpl#getWeightedFlow()
-       * @generated
-       */
+        /**
+         * The com.xnzk.flash.meta object literal for the
+         * '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.WeightedFlowImpl <em>Weighted Flow</em>}'
+         * class.
+         * <!-- begin-user-doc -->
+         * <!-- end-user-doc -->
+         *
+         * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.WeightedFlowImpl
+         * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.CoffeePackageImpl#getWeightedFlow()
+         * @generated
+         */
       EClass WEIGHTED_FLOW = eINSTANCE.getWeightedFlow();
 
-      /**
-       * The meta object literal for the '<em><b>Probability</b></em>' attribute feature.
-       * <!-- begin-user-doc -->
-       * <!-- end-user-doc -->
-       *
-       * @generated
-       */
+        /**
+         * The com.xnzk.flash.meta object literal for the '<em><b>Probability</b></em>' attribute feature.
+         * <!-- begin-user-doc -->
+         * <!-- end-user-doc -->
+         *
+         * @generated
+         */
       EAttribute WEIGHTED_FLOW__PROBABILITY = eINSTANCE.getWeightedFlow_Probability();
 
-      /**
-       * The meta object literal for the
-       * '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.SocketConnectorType <em>Socket Connector
-       * Type</em>}' enum.
-       * <!-- begin-user-doc -->
-       * <!-- end-user-doc -->
-       *
-       * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.SocketConnectorType
-       * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.CoffeePackageImpl#getSocketConnectorType()
-       * @generated
-       */
+        /**
+         * The com.xnzk.flash.meta object literal for the
+         * '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.SocketConnectorType <em>Socket Connector
+         * Type</em>}' enum.
+         * <!-- begin-user-doc -->
+         * <!-- end-user-doc -->
+         *
+         * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.SocketConnectorType
+         * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.CoffeePackageImpl#getSocketConnectorType()
+         * @generated
+         */
       EEnum SOCKET_CONNECTOR_TYPE = eINSTANCE.getSocketConnectorType();
 
-      /**
-       * The meta object literal for the
-       * '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.ManufactoringProcess <em>Manufactoring
-       * Process</em>}' enum.
-       * <!-- begin-user-doc -->
-       * <!-- end-user-doc -->
-       *
-       * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.ManufactoringProcess
-       * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.CoffeePackageImpl#getManufactoringProcess()
-       * @generated
-       */
+        /**
+         * The com.xnzk.flash.meta object literal for the
+         * '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.ManufactoringProcess <em>Manufactoring
+         * Process</em>}' enum.
+         * <!-- begin-user-doc -->
+         * <!-- end-user-doc -->
+         *
+         * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.ManufactoringProcess
+         * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.CoffeePackageImpl#getManufactoringProcess()
+         * @generated
+         */
       EEnum MANUFACTORING_PROCESS = eINSTANCE.getManufactoringProcess();
 
-      /**
-       * The meta object literal for the '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.RamType <em>Ram
-       * Type</em>}' enum.
-       * <!-- begin-user-doc -->
-       * <!-- end-user-doc -->
-       *
-       * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.RamType
-       * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.CoffeePackageImpl#getRamType()
-       * @generated
-       */
+        /**
+         * The com.xnzk.flash.meta object literal for the '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.RamType <em>Ram
+         * Type</em>}' enum.
+         * <!-- begin-user-doc -->
+         * <!-- end-user-doc -->
+         *
+         * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.RamType
+         * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.CoffeePackageImpl#getRamType()
+         * @generated
+         */
       EEnum RAM_TYPE = eINSTANCE.getRamType();
 
-      /**
-       * The meta object literal for the '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.Probability
-       * <em>Probability</em>}' enum.
-       * <!-- begin-user-doc -->
-       * <!-- end-user-doc -->
-       *
-       * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.Probability
-       * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.CoffeePackageImpl#getProbability()
-       * @generated
-       */
+        /**
+         * The com.xnzk.flash.meta object literal for the '{@link org.eclipse.emfcloud.modelserver.coffee.model.coffee.Probability
+         * <em>Probability</em>}' enum.
+         * <!-- begin-user-doc -->
+         * <!-- end-user-doc -->
+         *
+         * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.Probability
+         * @see org.eclipse.emfcloud.modelserver.coffee.model.coffee.impl.CoffeePackageImpl#getProbability()
+         * @generated
+         */
       EEnum PROBABILITY = eINSTANCE.getProbability();
 
    }

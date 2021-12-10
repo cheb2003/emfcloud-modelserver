@@ -13,9 +13,9 @@ Require-Bundle: com.google.guava;bundle-version="[27.1.0,31.0.0)",
  com.google.inject,
  org.eclipse.emf.transaction
 Export-Package: org.eclipse.emfcloud.modelserver.command,
- org.eclipse.emfcloud.modelserver.command.impl,
- org.eclipse.emfcloud.modelserver.command.util,
+ org.eclipse.emfcloud.modelserver.command.com.xnzk.flash.impl,
+ org.eclipse.emfcloud.modelserver.command.com.xnzk.flash.util,
  org.eclipse.emfcloud.modelserver.edit,
  org.eclipse.emfcloud.modelserver.edit.command,
- org.eclipse.emfcloud.modelserver.edit.util
+ org.eclipse.emfcloud.modelserver.edit.com.xnzk.flash.util
 Bundle-Vendor: EclipseSource

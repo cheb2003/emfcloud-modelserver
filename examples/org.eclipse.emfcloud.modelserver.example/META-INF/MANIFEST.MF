@@ -7,7 +7,7 @@ Automatic-Module-Name: org.eclipse.emfcloud.modelserver.example
 Bundle-RequiredExecutionEnvironment: JavaSE-11
 Export-Package: org.eclipse.emfcloud.modelserver.example,
  org.eclipse.emfcloud.modelserver.example.client,
- org.eclipse.emfcloud.modelserver.example.util
+ org.eclipse.emfcloud.modelserver.example.com.xnzk.flash.util
 Require-Bundle: com.fasterxml.jackson.core.jackson-core;bundle-version="[2.9.0,3.0.0)",
  com.fasterxml.jackson.core.jackson-databind;bundle-version="[2.9.0,3.0.0)",
  com.fasterxml.jackson.core.jackson-annotations;bundle-version="[2.10.3,3.0.0)",

@@ -307,13 +307,13 @@ public class CoffeePackageImpl extends EPackageImpl implements CoffeePackage {
 
       isInited = true;
 
-      // Create package meta-data objects
+      // Create package com.xnzk.flash.meta-data objects
       theCoffeePackage.createPackageContents();
 
-      // Initialize created meta-data
+       // Initialize created com.xnzk.flash.meta-data
       theCoffeePackage.initializePackageContents();
 
-      // Mark meta-data to indicate it can't be changed
+       // Mark com.xnzk.flash.meta-data to indicate it can't be changed
       theCoffeePackage.freeze();
 
       // Update the registry and return the package
@@ -878,14 +878,14 @@ public class CoffeePackageImpl extends EPackageImpl implements CoffeePackage {
     */
    private boolean isCreated = false;
 
-   /**
-    * Creates the meta-model objects for the package. This method is
-    * guarded to have no affect on any invocation but its first.
-    * <!-- begin-user-doc -->
-    * <!-- end-user-doc -->
-    *
-    * @generated
-    */
+    /**
+     * Creates the com.xnzk.flash.meta-model objects for the package. This method is
+     * guarded to have no affect on any invocation but its first.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     *
+     * @generated
+     */
    public void createPackageContents() {
       if (isCreated) {
          return;
@@ -983,13 +983,13 @@ public class CoffeePackageImpl extends EPackageImpl implements CoffeePackage {
     */
    private boolean isInitialized = false;
 
-   /**
-    * Complete the initialization of the package and its meta-model. This
-    * method is guarded to have no affect on any invocation but its first.
-    * <!-- begin-user-doc -->
-    * <!-- end-user-doc -->
-    *
-    * @generated
+    /**
+     * Complete the initialization of the package and its com.xnzk.flash.meta-model. This
+     * method is guarded to have no affect on any invocation but its first.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     *
+     * @generated
     */
    public void initializePackageContents() {
       if (isInitialized) {

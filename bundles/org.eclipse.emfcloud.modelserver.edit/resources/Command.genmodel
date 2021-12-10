@@ -3,7 +3,7 @@
     xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" copyrightText="Copyright (c) 2021 EclipseSource and others.&#xA;&#xA;This program and the accompanying materials are made available under the&#xA;terms of the Eclipse Public License v. 2.0 which is available at&#xA;https://www.eclipse.org/legal/epl-2.0, or the MIT License which is&#xA;available at https://opensource.org/licenses/MIT.&#xA;&#xA;SPDX-License-Identifier: EPL-2.0 OR MIT"
     modelDirectory="/org.eclipse.emfcloud.modelserver.edit/src-gen" editDirectory=""
     editorDirectory="" modelPluginID="org.eclipse.emfcloud.modelserver.edit" runtimeJar="true"
-    modelName="Command" updateClasspath="false" rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container"
+    modelName="Command" updateClasspath="false" rootExtendsClass="org.eclipse.emf.ecore.com.xnzk.flash.impl.MinimalEObjectImpl$Container"
     codeFormatting="true" commentFormatting="true" testsDirectory="" importerID="org.eclipse.emf.importer.ecore"
     complianceLevel="9.0" copyrightFields="false" usedGenPackages="../../org.eclipse.emf.ecore/model/Ecore.genmodel#//ecore"
     interfaceNamePattern="C{0}" classNamePattern="C{0}Impl" operationReflection="true"
